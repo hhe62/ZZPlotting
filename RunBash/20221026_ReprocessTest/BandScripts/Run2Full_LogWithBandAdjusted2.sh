@@ -4,8 +4,21 @@ filename="RECO_hadd_recovered.root" #"PUapplied_20Jul2020-ZZ4l2016_Moriond.root"
 selection="ZZSelectionsTightLeps"
 #dir="20221208Recovered_FullRun2_hadd_reco_WithBand_LogyAdjusted_withfake"
 #dir="20230114Recovered_FullRun2_hadd_reco_WithBand_LogyAdjusted_withfake"
-dir="20230201Recovered_FullRun2_hadd_reco_WithBand_LogyAdjusted_withfake_fixtitle"
-variable="mjj dEtajj" #"nJets mjj dEtajj jetPt[0] jetPt[1] absjetEta[0] absjetEta[1]" #Mass Mass0j Mass1j Mass2j Mass3j Mass4j" #"nJets" #mjj dEtajj jetEta[0] jetEta[1] jetEta[2] jetPt[0] jetPt[1] jetPt[2] jetPhi[0] jetPhi[1] jetPhi[2] Mass Mass0j Mass1j Mass2j Mass3j Mass4j"
+#dir="20230201Recovered_FullRun2_hadd_reco_WithBand_LogyAdjusted_withfake_fixtitle"
+#dir="20230504Recovered_FullRun2_hadd_reco_WithBand_LogyAdjusted_withfake_AddTextFixUnit"
+#dir="20230520Recovered_FullRun2_hadd_reco_WithBand_LogyAdjusted_withfake_ReplaceLeadingText"
+#dir="20230521Recovered_FullRun2_hadd_reco_WithBand_LogyAdjusted_withfake_ForPaper"
+#dir="20230727_testColor"
+#dir="20230918_CWRUpdatedStyle_jets"
+#dir="20231011_CWRUpdatedStyle_jets_forEWWG_Prelim"
+#dir="20231214_FR"
+#dir="20230114_postFR"
+#dir="20230304_postFR_adjustPDF"
+dir="20230304_postFR_adjustPDFtest"
+#variable="jetPt[0] jetPt[1]"
+
+variable="mjj"
+#variable="nJets mjj dEtajj jetPt[0] jetPt[1] absjetEta[0] absjetEta[1]" #Mass Mass0j Mass1j Mass2j Mass3j Mass4j" #"nJets" #mjj dEtajj jetEta[0] jetEta[1] jetEta[2] jetPt[0] jetPt[1] jetPt[2] jetPhi[0] jetPhi[1] jetPhi[2] Mass Mass0j Mass1j Mass2j Mass3j Mass4j"
 #variable="ZMass Z1Mass Z2Mass Mass Mass0j Mass1j Mass2j Mass3j"
 #variable="absJetEta[0]_refine absJetEta[1]_refine absJetEta[0]50_refine absJetEta[1]50_refine jetPt_refine jetPhi_refine"
 
@@ -66,26 +79,26 @@ do
   then
     echo ${var}
     echo "All Channels"
-    ./makeHistStack.py -s ZZ4l2016/${selection} -f jetPlot -l 137.58 -u stat --latex --logy  --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir} -b ${var} --preliminary --scaleymax 7 --scalelegx 1.2 --ratio_range 0.4 2.9 #--no_data #--no_decorations
+    ./makeHistStack.py -s ZZ4l2016/${selection} -f jetPlot -l 137.58 -u stat --latex --logy  --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir} -b ${var} --preliminary --scaleymax 7 --scalelegx 1.2 --ratio_range 0.4 2.1 #--no_data #--no_decorations
      
     echo "Plotting 4e channel"
     
-    ./makeHistStack.py -s ZZ4l2016/${selection} -f jetPlot -l 137.58 -u stat --latex --logy  --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir}/eeee -b ${var} -c eeee --preliminary --scaleymax 7 --scalelegx 1.2 --ratio_range 0.4 2.9 #--no_data #--no_decorations
+    ./makeHistStack.py -s ZZ4l2016/${selection} -f jetPlot -l 137.58 -u stat --latex --logy  --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir}/eeee -b ${var} -c eeee --preliminary --scaleymax 7 --scalelegx 1.2 --ratio_range 0.4 2.1 #--no_data #--no_decorations
      
     echo "Plotting 4mu channel"
     
-    ./makeHistStack.py -s ZZ4l2016/${selection} -f jetPlot -l 137.58 -u stat --latex --logy  --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir}/mmmm -b ${var} -c mmmm --preliminary --scaleymax 7 --scalelegx 1.2 --ratio_range 0.4 2.9 #--no_data #--no_decorations
+    ./makeHistStack.py -s ZZ4l2016/${selection} -f jetPlot -l 137.58 -u stat --latex --logy  --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir}/mmmm -b ${var} -c mmmm --preliminary --scaleymax 7 --scalelegx 1.2 --ratio_range 0.4 2.1 #--no_data #--no_decorations
      
     echo "Plotting eemm channel"
     
-    ./makeHistStack.py -s ZZ4l2016/${selection} -f jetPlot -l 137.58 -u stat --latex --logy  --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir}/eemm -b ${var} -c eemm --preliminary --scaleymax 7 --scalelegx 1.2 --ratio_range 0.4 2.9 #--no_data #--no_decorations   
+    ./makeHistStack.py -s ZZ4l2016/${selection} -f jetPlot -l 137.58 -u stat --latex --logy  --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir}/eemm -b ${var} -c eemm --preliminary --scaleymax 7 --scalelegx 1.2 --ratio_range 0.4 2.1 #--no_data #--no_decorations   
     echo "Plotting mmee channel"
     
-    ./makeHistStack.py -s ZZ4l2016/${selection} -f jetPlot -l 137.58 -u stat --latex --logy  --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir}/mmee -b ${var} -c mmee --preliminary --scaleymax 7 --scalelegx 1.2 --ratio_range 0.4 2.9 #--no_data #--no_decorations 
+    ./makeHistStack.py -s ZZ4l2016/${selection} -f jetPlot -l 137.58 -u stat --latex --logy  --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir}/mmee -b ${var} -c mmee --preliminary --scaleymax 7 --scalelegx 1.2 --ratio_range 0.4 2.1 #--no_data #--no_decorations 
     
     echo "Plotting 2e2m  channel"
     
-    ./makeHistStack.py -s ZZ4l2016/${selection} -f jetPlot -l 137.58 -u stat --latex --logy  --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir}/2e2m -b ${var} -c eemm,mmee --preliminary --scaleymax 7 --scalelegx 1.2 --ratio_range 0.4 2.9 #--no_data #--no_decorations 
+    ./makeHistStack.py -s ZZ4l2016/${selection} -f jetPlot -l 137.58 -u stat --latex --logy  --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir}/2e2m -b ${var} -c eemm,mmee --preliminary --scaleymax 7 --scalelegx 1.2 --ratio_range 0.4 2.1 #--no_data #--no_decorations 
     
   fi
   if [ $var = "jetPt[01]" ];
@@ -638,26 +651,26 @@ do
   then
     echo ${var}
     echo "All Channels"
-    ./makeHistStack.py -s ZZ4l2016/${selection} -f jetPlot -l 137.58 -u stat --latex --logy --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir} -b ${var} --preliminary --scaleymax 7 --scalelegx 1.2 --ratio_range 0.4 2.9 #--no_data #--no_decorations
+    ./makeHistStack.py -s ZZ4l2016/${selection} -f jetPlot -l 137.58 -u stat --latex --logy --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir} -b ${var} --preliminary --scaleymax 7 --scalelegx 1.2 --ratio_range 0.4 2.1 #--no_data #--no_decorations
      
     echo "Plotting 4e channel"
     
-    ./makeHistStack.py -s ZZ4l2016/${selection} -f jetPlot -l 137.58 -u stat --latex --logy --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir}/eeee -b ${var} -c eeee --preliminary --scaleymax 7 --scalelegx 1.2 --ratio_range 0.4 2.9 #--no_data #--no_decorations
+    ./makeHistStack.py -s ZZ4l2016/${selection} -f jetPlot -l 137.58 -u stat --latex --logy --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir}/eeee -b ${var} -c eeee --preliminary --scaleymax 7 --scalelegx 1.2 --ratio_range 0.4 2.1 #--no_data #--no_decorations
      
     echo "Plotting 4mu channel"
     
-    ./makeHistStack.py -s ZZ4l2016/${selection} -f jetPlot -l 137.58 -u stat --latex --logy --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir}/mmmm -b ${var} -c mmmm --preliminary --scaleymax 7 --scalelegx 1.2 --ratio_range 0.4 2.9 #--no_data #--no_decorations
+    ./makeHistStack.py -s ZZ4l2016/${selection} -f jetPlot -l 137.58 -u stat --latex --logy --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir}/mmmm -b ${var} -c mmmm --preliminary --scaleymax 7 --scalelegx 1.2 --ratio_range 0.4 2.1 #--no_data #--no_decorations
      
     echo "Plotting eemm channel"
     
-    ./makeHistStack.py -s ZZ4l2016/${selection} -f jetPlot -l 137.58 -u stat --latex --logy --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir}/eemm -b ${var} -c eemm --preliminary --scaleymax 7 --scalelegx 1.2 --ratio_range 0.4 2.9 #--no_data #--no_decorations   
+    ./makeHistStack.py -s ZZ4l2016/${selection} -f jetPlot -l 137.58 -u stat --latex --logy --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir}/eemm -b ${var} -c eemm --preliminary --scaleymax 7 --scalelegx 1.2 --ratio_range 0.4 2.1 #--no_data #--no_decorations   
     echo "Plotting mmee channel"
     
-    ./makeHistStack.py -s ZZ4l2016/${selection} -f jetPlot -l 137.58 -u stat --latex --logy --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir}/mmee -b ${var} -c mmee --preliminary --scaleymax 7 --scalelegx 1.2 --ratio_range 0.4 2.9 #--no_data #--no_decorations 
+    ./makeHistStack.py -s ZZ4l2016/${selection} -f jetPlot -l 137.58 -u stat --latex --logy --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir}/mmee -b ${var} -c mmee --preliminary --scaleymax 7 --scalelegx 1.2 --ratio_range 0.4 2.1 #--no_data #--no_decorations 
     
     echo "Plotting 2e2m  channel"
     
-    ./makeHistStack.py -s ZZ4l2016/${selection} -f jetPlot -l 137.58 -u stat --latex --logy --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir}/2e2m -b ${var} -c eemm,mmee --preliminary --scaleymax 7 --scalelegx 1.2 --ratio_range 0.4 2.9 #--no_data #--no_decorations 
+    ./makeHistStack.py -s ZZ4l2016/${selection} -f jetPlot -l 137.58 -u stat --latex --logy --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir}/2e2m -b ${var} -c eemm,mmee --preliminary --scaleymax 7 --scalelegx 1.2 --ratio_range 0.4 2.1 #--no_data #--no_decorations 
     
   fi
   if [ $var = "jetEta[1]" ];

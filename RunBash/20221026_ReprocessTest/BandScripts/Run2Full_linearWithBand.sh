@@ -3,7 +3,17 @@ filename="RECO_hadd_recovered.root" #"PUapplied_20Jul2020-ZZ4l2016_Moriond.root"
 #filename="Hists06Mar2019-ZZ4l2017dPhi.root"
 selection="ZZSelectionsTightLeps"
 #dir="20221208Recovered_FullRun2_hadd_reco_WithBand_complete"
-dir="20230114Recovered_FullRun2_hadd_reco_WithBand_complete"
+#dir="20230114Recovered_FullRun2_hadd_reco_WithBand_complete"
+#dir="20230521Recovered_FullRun2_hadd_reco_WithBand_LogyAdjusted_withfake_ForPaper"
+#dir="20230622Recovered_FullRun2_hadd_reco_WithBand_LogyAdjusted_withfake_ForBriefing"
+#dir="20230623Recovered_FullRun2_hadd_reco_WithBand_LogyAdjusted_withfake_ForBriefingTestStyle"
+#dir="20230918Recovered_FullRun2_hadd_reco_WithBand_LogyAdjusted_withfake"
+#dir="20231011Recovered_FullRun2_hadd_reco_WithBand_LogyAdjusted_withfake_EWWG_prelim"
+#dir="20231214_FRFixed"
+dir="20230114_postFR"
+
+#variable="Mass0jFull"
+#variable="MassFull Mass0jFull Mass1jFull Mass2jFull Mass3jFull Mass4jFull"
 variable="Mass Mass0j Mass1j Mass2j Mass3j Mass4j" #"MassFull Mass0jFull Mass1jFull Mass2jFull Mass3jFull Mass4jFull" #"nJets mjj dEtajj jetPt[0] jetPt[1] absjetEta[0] absjetEta[1] Mass Mass0j Mass1j Mass2j Mass3j Mass4j" #"MassFull Mass0jFull Mass1jFull Mass2jFull Mass3jFull Mass4jFull" #"nJets" #mjj dEtajj jetEta[0] jetEta[1] jetEta[2] jetPt[0] jetPt[1] jetPt[2] jetPhi[0] jetPhi[1] jetPhi[2] Mass Mass0j Mass1j Mass2j Mass3j Mass4j"
 #variable="ZMass Z1Mass Z2Mass Mass Mass0j Mass1j Mass2j Mass3j"
 #variable="absJetEta[0]_refine absJetEta[1]_refine absJetEta[0]50_refine absJetEta[1]50_refine jetPt_refine jetPhi_refine"
@@ -793,7 +803,7 @@ do
   then
     echo ${var}
     echo "All Channels"
-    ./makeHistStack.py -s ZZ4l2018/${selection} -f jetPlot -l 137.58 -u stat --latex --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir} -b ${var} --preliminary --scaleymax 1.2 --scalelegx 1.2 --extra_text "events with 0 jet" --rebin 100.0,200.0,250.0,300.0,350.0,400.0,500.0,600.0,800.0,1000.0 
+    ./makeHistStack.py -s ZZ4l2018/${selection} -f jetPlot -l 137.58 -u stat --latex --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir} -b ${var} --preliminary --scaleymax 1.2 --scalelegx 1.2 --extra_text "Events with 0 jet" --rebin 100.0,200.0,250.0,300.0,350.0,400.0,500.0,600.0,800.0,1000.0 
      
     echo "Plotting 4e channel"
     
@@ -819,7 +829,7 @@ do
   then
     echo ${var}
     echo "All Channels"
-    ./makeHistStack.py -s ZZ4l2018/${selection} -f jetPlot -l 137.58 -u stat --latex --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir} -b ${var} --preliminary --scaleymax 1.2 --scalelegx 1.2 --extra_text "events with 1 jet" --rebin 100.0,200.0,250.0,300.0,350.0,400.0,500.0,600.0,800.0,1000.0 
+    ./makeHistStack.py -s ZZ4l2018/${selection} -f jetPlot -l 137.58 -u stat --latex --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir} -b ${var} --preliminary --scaleymax 1.2 --scalelegx 1.2 --extra_text "Events with 1 jet" --rebin 100.0,200.0,250.0,300.0,350.0,400.0,500.0,600.0,800.0,1000.0 
      
     echo "Plotting 4e channel"
     
@@ -845,7 +855,7 @@ do
   then
     echo ${var}
     echo "All Channels"
-    ./makeHistStack.py -s ZZ4l2018/${selection} -f jetPlot -l 137.58 -u stat --latex --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir} -b ${var} --preliminary --scaleymax 1.2 --scalelegx 1.2 --extra_text "events with 2 jets" --rebin 100.0,200.0,250.0,300.0,350.0,400.0,500.0,600.0,800.0,1000.0 
+    ./makeHistStack.py -s ZZ4l2018/${selection} -f jetPlot -l 137.58 -u stat --latex --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir} -b ${var} --preliminary --scaleymax 1.2 --scalelegx 1.2 --extra_text "Events with 2 jets" --rebin 100.0,200.0,250.0,300.0,350.0,400.0,500.0,600.0,800.0,1000.0 
      
     echo "Plotting 4e channel"
     
@@ -871,7 +881,7 @@ do
   then
     echo ${var}
     echo "All Channels"
-    ./makeHistStack.py -s ZZ4l2018/${selection} -f jetPlot -l 137.58 -u stat --latex --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir} -b ${var} --preliminary --scaleymax 1.2 --scalelegx 1.2 --ratio_range 0.4 2.9 --extra_text "events with 3 jets" --rebin 100.0,200.0,250.0,300.0,350.0,400.0,500.0,600.0,800.0,1000.0 
+    ./makeHistStack.py -s ZZ4l2018/${selection} -f jetPlot -l 137.58 -u stat --latex --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir} -b ${var} --preliminary --scaleymax 1.2 --scalelegx 1.2 --ratio_range 0.4 2.9 --extra_text "Events with 3 jets" --rebin 100.0,200.0,250.0,300.0,350.0,400.0,500.0,600.0,800.0,1000.0 
      
     echo "Plotting 4e channel"
     
@@ -897,7 +907,7 @@ do
   then
     echo ${var}
     echo "All Channels"
-    ./makeHistStack.py -s ZZ4l2018/${selection} -f jetPlot -l 137.58 -u stat --latex --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir} -b ${var} --preliminary --scaleymax 1.2 --scalelegx 1.2 --ratio_range 0.4 2.9 --extra_text "events with #geq 4 jets" --rebin 100.0,200.0,250.0,300.0,350.0,400.0,500.0,600.0,800.0,1000.0 
+    ./makeHistStack.py -s ZZ4l2018/${selection} -f jetPlot -l 137.58 -u stat --latex --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir} -b ${var} --preliminary --scaleymax 1.2 --scalelegx 1.2 --ratio_range 0.4 2.9 --extra_text "Events with #geq 4 jets" --rebin 100.0,200.0,250.0,300.0,350.0,400.0,500.0,600.0,800.0,1000.0 
      
     echo "Plotting 4e channel"
     
@@ -1183,7 +1193,7 @@ do
   then
     echo ${var}
     echo "All Channels"
-    ./makeHistStack.py -s ZZ4l2018/${selection} -f jetPlot -l 137.58 -u stat --latex --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir} -b ${var} --preliminary --scaleymax 1.2 --scalelegx 1.2 --extra_text "events with 0 jet" --rebin 100.0,200.0,250.0,300.0,350.0,400.0,500.0,600.0,800.0,1000.0 
+    ./makeHistStack.py -s ZZ4l2018/${selection} -f jetPlot -l 137.58 -u stat --latex --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir} -b ${var} --preliminary --scaleymax 1.2 --scalelegx 1.2 --extra_text "Events with 0 jet" --rebin 100.0,200.0,250.0,300.0,350.0,400.0,500.0,600.0,800.0,1000.0 
      
     echo "Plotting 4e channel"
     
@@ -1209,7 +1219,7 @@ do
   then
     echo ${var}
     echo "All Channels"
-    ./makeHistStack.py -s ZZ4l2018/${selection} -f jetPlot -l 137.58 -u stat --latex --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir} -b ${var} --preliminary --scaleymax 1.2 --scalelegx 1.2 --extra_text "events with 1 jet" --rebin 100.0,200.0,250.0,300.0,350.0,400.0,500.0,600.0,800.0,1000.0 
+    ./makeHistStack.py -s ZZ4l2018/${selection} -f jetPlot -l 137.58 -u stat --latex --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir} -b ${var} --preliminary --scaleymax 1.2 --scalelegx 1.2 --extra_text "Events with 1 jet" --rebin 100.0,200.0,250.0,300.0,350.0,400.0,500.0,600.0,800.0,1000.0 
      
     echo "Plotting 4e channel"
     
@@ -1235,7 +1245,7 @@ do
   then
     echo ${var}
     echo "All Channels"
-    ./makeHistStack.py -s ZZ4l2018/${selection} -f jetPlot -l 137.58 -u stat --latex --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir} -b ${var} --preliminary --scaleymax 1.2 --scalelegx 1.2 --extra_text "events with 2 jets" --rebin 100.0,200.0,250.0,300.0,350.0,400.0,500.0,600.0,800.0,1000.0 
+    ./makeHistStack.py -s ZZ4l2018/${selection} -f jetPlot -l 137.58 -u stat --latex --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir} -b ${var} --preliminary --scaleymax 1.2 --scalelegx 1.2 --extra_text "Events with 2 jets" --rebin 100.0,200.0,250.0,300.0,350.0,400.0,500.0,600.0,800.0,1000.0 
      
     echo "Plotting 4e channel"
     
@@ -1261,7 +1271,7 @@ do
   then
     echo ${var}
     echo "All Channels"
-    ./makeHistStack.py -s ZZ4l2018/${selection} -f jetPlot -l 137.58 -u stat --latex --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir} -b ${var} --preliminary --scaleymax 1.2 --scalelegx 1.2 --ratio_range 0.4 2.9 --extra_text "events with 3 jets" --rebin 100.0,200.0,250.0,300.0,350.0,400.0,500.0,600.0,800.0,1000.0 
+    ./makeHistStack.py -s ZZ4l2018/${selection} -f jetPlot -l 137.58 -u stat --latex --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir} -b ${var} --preliminary --scaleymax 1.2 --scalelegx 1.2 --ratio_range 0.4 2.9 --extra_text "Events with 3 jets" --rebin 100.0,200.0,250.0,300.0,350.0,400.0,500.0,600.0,800.0,1000.0 
      
     echo "Plotting 4e channel"
     
@@ -1287,7 +1297,7 @@ do
   then
     echo ${var}
     echo "All Channels"
-    ./makeHistStack.py -s ZZ4l2018/${selection} -f jetPlot -l 137.58 -u stat --latex --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir} -b ${var} --preliminary --scaleymax 1.2 --scalelegx 1.2 --ratio_range 0.4 2.9 --extra_text "events with #geq 4 jets" --rebin 100.0,200.0,250.0,300.0,350.0,400.0,500.0,600.0,800.0,1000.0 
+    ./makeHistStack.py -s ZZ4l2018/${selection} -f jetPlot -l 137.58 -u stat --latex --hist_file /home/user1/cms_analysis/new_ZZ/CMSSW_10_3_1/src/ZZPlotting/HistFiles/${filename} --folder_name ${dir} -b ${var} --preliminary --scaleymax 1.2 --scalelegx 1.2 --ratio_range 0.4 2.9 --extra_text "Events with #geq 4 jets" --rebin 100.0,200.0,250.0,300.0,350.0,400.0,500.0,600.0,800.0,1000.0 
      
     echo "Plotting 4e channel"
     
