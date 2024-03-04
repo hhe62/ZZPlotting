@@ -64,7 +64,7 @@ def makePlots(hist_stacks, data_hists, name, args, signal_stacks=[0], errors=[])
     ycoords = [ymax, ymax - 0.08*unique_entries*args.scalelegy]
     coords = [xcoords[0], ycoords[0], xcoords[1], ycoords[1]]
     
-    doSyst_diagnostic = False
+    doSyst_diagnostic = True
     dosyst = glb_doSyst and doSyst_diagnostic
     if dosyst:
         mainband,ratioband=getSystValue(hist_stacks[0].GetStack().Last())
@@ -1194,9 +1194,9 @@ def getSystValue(hMain):
        
         MainGraph.SetPointEYhigh(i-1, errorUp)
         MainGraph.SetPointEYlow(i-1, errorDn)
-    MainGraph.SetFillColorAlpha(1,0.3)
+    MainGraph.SetFillColorAlpha(1,0.2)
     #MainGraph.SetFillColor(14)     
-    MainGraph.SetFillStyle(3001)
+    MainGraph.SetFillStyle(3002)
     MainGraph.SetLineColor(0)
     #pdb.set_trace()
     hflat = hMain.Clone("flat")
@@ -1229,9 +1229,9 @@ def getSystValue(hMain):
         #ratioGraph.SetPointY(i-1,1.)
         ratioGraph.SetPointEYhigh(i-1, errorUp)
         ratioGraph.SetPointEYlow(i-1, errorDn)
-    ratioGraph.SetFillColorAlpha(1,0.3)
+    ratioGraph.SetFillColorAlpha(1,0.2)
     #ratioGraph.SetFillColor(14)   
-    ratioGraph.SetFillStyle(3001)
+    ratioGraph.SetFillStyle(3002)
     
     #MainGraph.SetDirectory(0)
     #ratioGraph.SetDirectory(0)
