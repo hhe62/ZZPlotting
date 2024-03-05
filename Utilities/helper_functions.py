@@ -195,6 +195,7 @@ def makePlots(hist_stacks, data_hists, name, args, signal_stacks=[0], errors=[])
         text_box.SetFillColorAlpha(0,0.0)        
         text_box.SetFillStyle(0)
         #text_box.SetLineColor(0)
+        text_box.SetLineWidth(0)
         text_box.SetLineColorAlpha(0, 0.0)
         #text_box.SetTextFont(70)
         for i, line in enumerate(lines):
