@@ -841,7 +841,11 @@ def getSystValue(hMain):
         underflow=False, overflow=False)
 
     #This is the non-prompt background
-    ewkcorr = HistTools.getDifferenceDirect(fOut, "DataEWKCorrected", alldata, ewkmc)
+    #Codes from unfolding doesn't work for full Run-2 here since dataset naming are different in each year
+
+    #ewkcorr = HistTools.getDifferenceDirect(fOut, "DataEWKCorrected", alldata, ewkmc)
+    #ewkcorr = fOut.Get("DataEWKCorrected").Clone()
+    #print("Type of ewkcorr: %s"%(type(ewkcorr)))
 
     zzSumWeights = ewkSumW[mynominalName]  
     
@@ -870,8 +874,20 @@ def getSystValue(hMain):
     #Alt signals containing zzl4-amcatnlo instead of zz4l-powheg
     #hAltTrueDic=OutputTools.getHistsInDic(altSigmc,["Gen"+s for s in varList],channels)
 
+
     #Non-prompt background dictionary
-    hbkgDic=OutputTools.getHistsInDic(ewkcorr,[s+"_Fakes" for s in varList],channels)
+    #hbkgDic=OutputTools.getHistsInDic(ewkcorr,[s+"_Fakes" for s in varList],channels)
+
+    #recreate a new nonprompt dict
+    hbkgDic = {}
+    hbkgDic["eeee"] = {}
+    hbkgDic["eemm"] = {}
+    hbkgDic["mmmm"] = {}
+
+    hbkgDic["eeee"][variable+"_Fakes"] =  fOut.Get("DataEWKCorrected/%s_Fakes_eeee"%variable).Clone()
+    hbkgDic["mmmm"][variable+"_Fakes"] =  fOut.Get("DataEWKCorrected/%s_Fakes_mmmm"%variable).Clone()
+    hbkgDic["eemm"][variable+"_Fakes"] =  fOut.Get("DataEWKCorrected/%s_Fakes_eemm"%variable).Clone()
+    hbkgDic["eemm"][variable+"_Fakes"].Add(fOut.Get("DataEWKCorrected/%s_Fakes_mmee"%variable).Clone())
 
     
     
@@ -914,8 +930,10 @@ def getSystValue(hMain):
         #Nominal
         hSigNominal = hSigDic[chan][variable].Clone()
         hBkgNominal = hbkgDic[chan][variable+"_Fakes"].Clone()
+        
         hBkgMCNominal = hbkgMCDic[chan][variable].Clone()
         hBkgNominal = rebin(hBkgNominal,variable)
+        print("Fake diagnostics Nominal 1st bin %s: %s"%(chan, hBkgNominal.GetBinContent(1)))
         hTrue = hTrueDic[chan]["Gen"+variable]
         hTrue = rebin(hTrue,variable)
         hTrue_qqZZonly = hTrueDic_qqZZonly[chan]["Gen"+variable]
@@ -985,24 +1003,38 @@ def getSystValue(hMain):
             lumiUnc = 0.025
             
         lumiScale = {'Up':1.+lumiUnc,'Down':1.-lumiUnc}
-        for sys, scale in lumiScale.iteritems():
-            hNoFake = hMain.Clone("NoFakeLumi")
-            #hNoFake.SetDirectory(0)
+        if chan == channels[0]:
+            for sys, scale in lumiScale.iteritems():
+                hNoFake = hMain.Clone("NoFakeLumi")
+                #hNoFake.SetDirectory(0)
+                for chanlumi in channels:
+                    hBkgLumi = hbkgDic[chanlumi][variable+"_Fakes"].Clone()
+                    #hBkgLumi.SetDirectory(0)
+                    hBkgLumi=rebin(hBkgLumi,variable)
+                    #truncateTH1(hBkgLumi)
 
-            hBkgLumi = hbkgDic[chan][variable+"_Fakes"].Clone()
-            #hBkgLumi.SetDirectory(0)
-            hBkgLumi=rebin(hBkgLumi,variable)
-            #truncateTH1(hBkgLumi)
+                    hNoFake.Add(hBkgLumi,-1)
+                hChangeLumi = hNoFake*(scale-1.)
+                #hChangeLumi.SetDirectory(0)
 
-            hNoFake.Add(hBkgLumi,-1)
-            hChangeLumi = hNoFake*(scale-1.)
-            #hChangeLumi.SetDirectory(0)
-
-            if chan == channels[0]:
+                
                 SysDic[sys]['lumi'] = hChangeLumi
                 
-            else:
-                SysDic[sys]['lumi'].Add(hChangeLumi)
+        else:
+            pass
+            #hMain is not splitted into channels so only need to do it once
+            #SysDic[sys]['lumi'].Add(hChangeLumi)
+            
+            # print("lumi chan so far: %s"%chan)
+            # if True:
+            #     print("lumi diagnostics: main and lumi hist bin content:")
+            #     print(sys)
+            #     print([hChangeLumi.GetBinContent(ilum) for ilum in range(1,5)])
+            #     print([hNoFake.GetBinContent(ilum) for ilum in range(1,5)])
+        # if chan == "eemm":
+        #     del sys
+        #     import sys
+        #     sys.exit()
         
         #lepton efficiency
         for lep in set(chan):
@@ -1026,24 +1058,26 @@ def getSystValue(hMain):
         #Trigger efficiency
         TrigUnc = 0.02
         TrigScale = {'Up':1.+TrigUnc,'Down':1.-TrigUnc}
-        for sys, scale in TrigScale.iteritems():
-            hNoFakeTrig = hMain.Clone("NoFakeTrig")
-            #hNoFake.SetDirectory(0)
+        if chan == channels[0]:
+            for sys, scale in TrigScale.iteritems():
+                hNoFakeTrig = hMain.Clone("NoFakeTrig")
+                #hNoFake.SetDirectory(0)
+                for chanTrig in channels:
+                    hBkgTrig = hbkgDic[chanTrig][variable+"_Fakes"].Clone()
+                    #hBkgLumi.SetDirectory(0)
+                    hBkgTrig=rebin(hBkgTrig,variable)
+                    #truncateTH1(hBkgLumi)
 
-            hBkgTrig = hbkgDic[chan][variable+"_Fakes"].Clone()
-            #hBkgLumi.SetDirectory(0)
-            hBkgTrig=rebin(hBkgTrig,variable)
-            #truncateTH1(hBkgLumi)
+                    hNoFakeTrig.Add(hBkgTrig,-1)
+                hChangeTrig= hNoFakeTrig*(scale-1.)
+                #hChangeLumi.SetDirectory(0)
 
-            hNoFakeTrig.Add(hBkgTrig,-1)
-            hChangeTrig= hNoFakeTrig*(scale-1.)
-            #hChangeLumi.SetDirectory(0)
-
-            if chan == channels[0]:
+                #if chan == channels[0]:
                 SysDic[sys]['trigger'] = hChangeTrig
                 
-            else:
-                SysDic[sys]['trigger'].Add(hChangeTrig)
+        else:
+            pass
+            #SysDic[sys]['trigger'].Add(hChangeTrig)
 
 
         # fake rate
@@ -1056,6 +1090,7 @@ def getSystValue(hMain):
                 hBkgFake = hbkgDic[chan][variable+"_Fakes"].Clone()
                 hBkgFake=rebin(hBkgFake,variable)
                 truncateTH1(hBkgFake)
+                print("Fake diagnostics clone 1st bin %s: %s %s"%(chan, sys, hBkgFake.GetBinContent(1)))
                 hBkgFake.Scale(scale-1.)
                 #hBkgFake.SetDirectory(0)
                 
@@ -1065,8 +1100,9 @@ def getSystValue(hMain):
                     
                 else:
                     SysDic[sys]['fake'].Add(hBkgFake)
-            
 
+                if sys == "Up":
+                    print("Fake diagnostics 1st bin %s: %s %s"%(chan, sys, hBkgFake.GetBinContent(1)))
         #Pileup reweight
         for sys in ['Up','Down']:
             
@@ -1130,10 +1166,10 @@ def getSystValue(hMain):
 
             if chan == channels[0]:
 
-                SysDic[ud][syskey] = hChangePU
+                SysDic[ud][syskey] = hChangeJet
                 
             else:
-                SysDic[ud][syskey].Add(hChangePU)
+                SysDic[ud][syskey].Add(hChangeJet)
 
             
             
@@ -1155,13 +1191,19 @@ def getSystValue(hMain):
 
     for i in range(1,hUncUp.GetNbinsX()+1):
         totUncUp=totUncDn=0.
-        for h1, h2 in zip(UncUpHistos,UncDnHistos):
+        for yeardia_i,(h1, h2) in enumerate(zip(UncUpHistos,UncDnHistos)):
             
             totUncUp += max(h1.GetBinContent(i),h2.GetBinContent(i))**2
             totUncDn += min(h1.GetBinContent(i),h2.GetBinContent(i))**2
+            if i ==1:
+                print("Year diagnostics:Up syst")
+                print(sysList[yeardia_i])
+                print(max(h1.GetBinContent(i),h2.GetBinContent(i)))
 
         totUncUp = math.sqrt(totUncUp)
         totUncDn = math.sqrt(totUncDn)
+        if i == 1:
+            print("Year diagnostics:tot unc up:%s"%totUncUp)
         #print "totUncUp: ",totUncUp
         #print "totUncDn: ",totUncDn
         hUncUp.SetBinContent(i,totUncUp)
