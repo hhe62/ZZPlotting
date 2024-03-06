@@ -159,8 +159,8 @@ def getListOfFiles(file_set, selection):
                 filelist.append("zzjj4l-ewk") #EWK
                 filelist.append("ggZZ")
                 #filelist.append("qqZZSpecg")
-                #filelist.append("qqZZ-amcnlo")
-                filelist.append("qqZZ-powheg")
+                filelist.append("qqZZ-amcnlo")
+                #filelist.append("qqZZ-powheg")
                 #filelist.append("HZZ-signal")
                 #filelist.append("ggHZZ-only")
                 #filelist.append("ggZZ")
