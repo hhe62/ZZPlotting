@@ -1,0 +1,1920 @@
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass
+Channels: eeee,eemm,mmee,mmmm
+
+ nonprompt: weighted events 12.8130424903
+ nonprompt: weighted events Error 1.08820162935
+ VVV: weighted events 10.5296103638
+ VVV: weighted events Error 0.308935268968
+ zzjj4l-ewk: weighted events 6.89667819251
+ zzjj4l-ewk: weighted events Error 0.00748311755967
+ ggZZ: weighted events 151.972664967
+ ggZZ: weighted events Error 0.13585686904
+ qqZZ-amcnlo: weighted events 795.830800119
+ qqZZ-amcnlo: weighted events Error 2.98881947003
+ HZZ-signal: weighted events 1.58560089416
+ HZZ-signal: weighted events Error 0.0107142315172
+ signalSum: weighted events 956.285744172
+ signalSum: weighted events Error 2.99193410775
+ totexp: weighted events 979.628397026
+ totexp: weighted events Error 3.19863931878
+Number of events in data: 938
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass
+Channels: eeee
+
+ nonprompt: weighted events 4.51653446256
+ nonprompt: weighted events Error 0.582893460004
+ VVV: weighted events 2.234018119
+ VVV: weighted events Error 0.141777771316
+ zzjj4l-ewk: weighted events 1.33018112449
+ zzjj4l-ewk: weighted events Error 0.00317712725285
+ ggZZ: weighted events 29.0144789787
+ ggZZ: weighted events Error 0.0532123183672
+ qqZZ-amcnlo: weighted events 149.46339801
+ qqZZ-amcnlo: weighted events Error 1.26614297477
+ HZZ-signal: weighted events 0.315453756555
+ HZZ-signal: weighted events Error 0.00458935019398
+ signalSum: weighted events 180.12351187
+ signalSum: weighted events Error 1.26727295389
+ totexp: weighted events 186.874064452
+ totexp: weighted events Error 1.40208646731
+Number of events in data: 172
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass
+Channels: mmmm
+
+ nonprompt: weighted events 2.24180003988
+ nonprompt: weighted events Error 0.479971077245
+ VVV: weighted events 3.18031391911
+ VVV: weighted events Error 0.16651108313
+ zzjj4l-ewk: weighted events 2.15649929935
+ zzjj4l-ewk: weighted events Error 0.00429379835908
+ ggZZ: weighted events 47.2635780381
+ ggZZ: weighted events Error 0.0716184001148
+ qqZZ-amcnlo: weighted events 248.916447491
+ qqZZ-amcnlo: weighted events Error 1.73023695695
+ HZZ-signal: weighted events 0.50865681297
+ HZZ-signal: weighted events Error 0.00640507165855
+ signalSum: weighted events 298.845181642
+ signalSum: weighted events Error 1.73173571427
+ totexp: weighted events 304.267295601
+ totexp: weighted events Error 1.80471791699
+Number of events in data: 296
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass
+Channels: eemm,mmee
+
+ nonprompt: weighted events 6.1011009845
+ nonprompt: weighted events Error 0.783610723134
+ VVV: weighted events 5.1152783257
+ VVV: weighted events Error 0.21820660661
+ zzjj4l-ewk: weighted events 3.40999776866
+ zzjj4l-ewk: weighted events Error 0.00524082116492
+ ggZZ: weighted events 75.69460795
+ ggZZ: weighted events Error 0.102451660818
+ qqZZ-amcnlo: weighted events 397.450954617
+ qqZZ-amcnlo: weighted events Error 2.08235536464
+ HZZ-signal: weighted events 0.761490324638
+ HZZ-signal: weighted events Error 0.0072600054304
+ signalSum: weighted events 477.31705066
+ signalSum: weighted events Error 2.08489337409
+ totexp: weighted events 488.53342997
+ totexp: weighted events Error 2.23795448343
+Number of events in data: 470
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass0j
+Channels: eeee,eemm,mmee,mmmm
+
+ nonprompt: weighted events 4.72054418015
+ nonprompt: weighted events Error 0.6715296164
+ VVV: weighted events 1.77317260112
+ VVV: weighted events Error 0.159199300646
+ zzjj4l-ewk: weighted events 0.0594761430426
+ zzjj4l-ewk: weighted events Error 0.000713642756318
+ ggZZ: weighted events 84.1308069056
+ ggZZ: weighted events Error 0.10135061714
+ qqZZ-amcnlo: weighted events 513.978904721
+ qqZZ-amcnlo: weighted events Error 2.17713970486
+ HZZ-signal: weighted events 0.761018638857
+ HZZ-signal: weighted events Error 0.00784889481823
+ signalSum: weighted events 598.930206409
+ signalSum: weighted events Error 2.17951172433
+ totexp: weighted events 605.42392319
+ totexp: weighted events Error 2.28616880381
+Number of events in data: 619
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass0j
+Channels: eeee
+
+ nonprompt: weighted events 1.34197114186
+ nonprompt: weighted events Error 0.328047254589
+ VVV: weighted events 0.341916613221
+ VVV: weighted events Error 0.0640325674596
+ zzjj4l-ewk: weighted events 0.0114919912787
+ zzjj4l-ewk: weighted events Error 0.000303472254794
+ ggZZ: weighted events 16.1532644358
+ ggZZ: weighted events Error 0.0397946171087
+ qqZZ-amcnlo: weighted events 97.1777246145
+ qqZZ-amcnlo: weighted events Error 0.915494432377
+ HZZ-signal: weighted events 0.145661054003
+ HZZ-signal: weighted events Error 0.00329607191546
+ signalSum: weighted events 113.488142096
+ signalSum: weighted events Error 0.916364896452
+ totexp: weighted events 115.172029851
+ totexp: weighted events Error 0.97541775378
+Number of events in data: 116
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass0j
+Channels: mmmm
+
+ nonprompt: weighted events 0.673740962313
+ nonprompt: weighted events Error 0.272214803736
+ VVV: weighted events 0.487591152836
+ VVV: weighted events Error 0.0784988835702
+ zzjj4l-ewk: weighted events 0.017975228552
+ zzjj4l-ewk: weighted events Error 0.000403318686277
+ ggZZ: weighted events 26.2855889565
+ ggZZ: weighted events Error 0.053592304079
+ qqZZ-amcnlo: weighted events 161.74459727
+ qqZZ-amcnlo: weighted events Error 1.2565343762
+ HZZ-signal: weighted events 0.242300284892
+ HZZ-signal: weighted events Error 0.00469060426764
+ signalSum: weighted events 188.29046174
+ signalSum: weighted events Error 1.25768554817
+ totexp: weighted events 189.451793855
+ totexp: weighted events Error 1.28919971772
+Number of events in data: 192
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass0j
+Channels: eemm,mmee
+
+ nonprompt: weighted events 2.81121901566
+ nonprompt: weighted events Error 0.518879682668
+ VVV: weighted events 0.95066575861
+ VVV: weighted events Error 0.122809498447
+ zzjj4l-ewk: weighted events 0.030008923212
+ zzjj4l-ewk: weighted events Error 0.000504504322593
+ ggZZ: weighted events 41.6919535133
+ ggZZ: weighted events Error 0.0762640215783
+ qqZZ-amcnlo: weighted events 255.056582837
+ qqZZ-amcnlo: weighted events Error 1.52411567808
+ HZZ-signal: weighted events 0.373057299961
+ HZZ-signal: weighted events Error 0.00536090397229
+ signalSum: weighted events 297.151602573
+ signalSum: weighted events Error 1.52603204258
+ totexp: weighted events 300.913487347
+ totexp: weighted events Error 1.61650613762
+Number of events in data: 311
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass1j
+Channels: eeee,eemm,mmee,mmmm
+
+ nonprompt: weighted events 3.68979482956
+ nonprompt: weighted events Error 0.586474153188
+ VVV: weighted events 2.95997691704
+ VVV: weighted events Error 0.177506946824
+ zzjj4l-ewk: weighted events 0.77838599778
+ zzjj4l-ewk: weighted events Error 0.00255334107394
+ ggZZ: weighted events 48.6737513677
+ ggZZ: weighted events Error 0.0767608571054
+ qqZZ-amcnlo: weighted events 192.418916526
+ qqZZ-amcnlo: weighted events Error 1.70995800451
+ HZZ-signal: weighted events 0.431099974427
+ HZZ-signal: weighted events Error 0.00570557546522
+ signalSum: weighted events 242.302153866
+ signalSum: weighted events Error 1.71169146738
+ totexp: weighted events 248.951925613
+ totexp: weighted events Error 1.81806169533
+Number of events in data: 190
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass1j
+Channels: eeee
+
+ nonprompt: weighted events 1.72674514632
+ nonprompt: weighted events Error 0.364876779924
+ VVV: weighted events 0.630185907489
+ VVV: weighted events Error 0.0853951290435
+ zzjj4l-ewk: weighted events 0.152751315299
+ zzjj4l-ewk: weighted events Error 0.00109330458778
+ ggZZ: weighted events 9.24292143994
+ ggZZ: weighted events Error 0.0300034703664
+ qqZZ-amcnlo: weighted events 35.8586057973
+ qqZZ-amcnlo: weighted events Error 0.730834571866
+ HZZ-signal: weighted events 0.0862340751731
+ HZZ-signal: weighted events Error 0.00243098515285
+ signalSum: weighted events 45.3405126277
+ signalSum: weighted events Error 0.731455046242
+ totexp: weighted events 47.6974436815
+ totexp: weighted events Error 0.821860010747
+Number of events in data: 37
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass1j
+Channels: mmmm
+
+ nonprompt: weighted events 0.559168839035
+ nonprompt: weighted events Error 0.232587311577
+ VVV: weighted events 0.942517739875
+ VVV: weighted events Error 0.0996606108615
+ zzjj4l-ewk: weighted events 0.238819414934
+ zzjj4l-ewk: weighted events Error 0.00145203839196
+ ggZZ: weighted events 15.0829050284
+ ggZZ: weighted events Error 0.0403644028
+ qqZZ-amcnlo: weighted events 59.5658116408
+ qqZZ-amcnlo: weighted events Error 0.991240996296
+ HZZ-signal: weighted events 0.140223953341
+ HZZ-signal: weighted events Error 0.00348290763432
+ signalSum: weighted events 75.0277600374
+ signalSum: weighted events Error 0.992069673366
+ totexp: weighted events 76.5294466163
+ totexp: weighted events Error 1.02383169109
+Number of events in data: 68
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass1j
+Channels: eemm,mmee
+
+ nonprompt: weighted events 1.50901162863
+ nonprompt: weighted events Error 0.39587878236
+ VVV: weighted events 1.38727326967
+ VVV: weighted events Error 0.119516320012
+ zzjj4l-ewk: weighted events 0.386815267547
+ zzjj4l-ewk: weighted events Error 0.00179327081794
+ ggZZ: weighted events 24.3479248994
+ ggZZ: weighted events Error 0.0579891018737
+ qqZZ-amcnlo: weighted events 96.9944990884
+ qqZZ-amcnlo: weighted events Error 1.18628769403
+ HZZ-signal: weighted events 0.204641945913
+ HZZ-signal: weighted events Error 0.00380962688287
+ signalSum: weighted events 121.933881201
+ signalSum: weighted events Error 1.18771164767
+ totexp: weighted events 124.8301661
+ totexp: weighted events Error 1.25764188825
+Number of events in data: 85
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass2j
+Channels: eeee,eemm,mmee,mmmm
+
+ nonprompt: weighted events 2.30892781816
+ nonprompt: weighted events Error 0.448423625367
+ VVV: weighted events 2.9590483284
+ VVV: weighted events Error 0.151518660217
+ zzjj4l-ewk: weighted events 3.42819952917
+ zzjj4l-ewk: weighted events Error 0.00528774746388
+ ggZZ: weighted events 15.0859978553
+ ggZZ: weighted events Error 0.0425140027899
+ qqZZ-amcnlo: weighted events 66.2203421873
+ qqZZ-amcnlo: weighted events Error 0.980177171253
+ HZZ-signal: weighted events 0.203448491896
+ HZZ-signal: weighted events Error 0.00340478229175
+ signalSum: weighted events 84.9379880637
+ signalSum: weighted events Error 0.981118892028
+ totexp: weighted events 90.2059642103
+ totexp: weighted events Error 1.08932820237
+Number of events in data: 84
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass2j
+Channels: eeee
+
+ nonprompt: weighted events 0.778370745728
+ nonprompt: weighted events Error 0.21873143824
+ VVV: weighted events 0.664197056301
+ VVV: weighted events Error 0.0721431791286
+ zzjj4l-ewk: weighted events 0.662213571518
+ zzjj4l-ewk: weighted events Error 0.00224701041061
+ ggZZ: weighted events 2.87038891476
+ ggZZ: weighted events Error 0.016629931583
+ qqZZ-amcnlo: weighted events 11.9508428483
+ qqZZ-amcnlo: weighted events Error 0.418218303809
+ HZZ-signal: weighted events 0.0438290049973
+ HZZ-signal: weighted events Error 0.00163575099805
+ signalSum: weighted events 15.5272743395
+ signalSum: weighted events Error 0.418558035406
+ totexp: weighted events 16.9698421416
+ totexp: weighted events Error 0.477743560262
+Number of events in data: 14
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass2j
+Channels: mmmm
+
+ nonprompt: weighted events 0.628635875013
+ nonprompt: weighted events Error 0.229386276387
+ VVV: weighted events 0.938710495563
+ VVV: weighted events Error 0.0882156652524
+ zzjj4l-ewk: weighted events 1.0736119629
+ zzjj4l-ewk: weighted events Error 0.00303672287971
+ ggZZ: weighted events 4.65341061312
+ ggZZ: weighted events Error 0.0222827950166
+ qqZZ-amcnlo: weighted events 20.2998742844
+ qqZZ-amcnlo: weighted events Error 0.570463869102
+ HZZ-signal: weighted events 0.0651973386528
+ HZZ-signal: weighted events Error 0.00195763273873
+ signalSum: weighted events 26.0920941991
+ signalSum: weighted events Error 0.570910328262
+ totexp: weighted events 27.6594405697
+ totexp: weighted events Error 0.621561477496
+Number of events in data: 20
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass2j
+Channels: eemm,mmee
+
+ nonprompt: weighted events 1.007202869
+ nonprompt: weighted events Error 0.317210091136
+ VVV: weighted events 1.35614077653
+ VVV: weighted events Error 0.0998562091372
+ zzjj4l-ewk: weighted events 1.69237399475
+ zzjj4l-ewk: weighted events Error 0.00369993670328
+ ggZZ: weighted events 7.56219832742
+ ggZZ: weighted events Error 0.0321615120137
+ qqZZ-amcnlo: weighted events 33.9696250547
+ qqZZ-amcnlo: weighted events Error 0.678536448139
+ HZZ-signal: weighted events 0.0944221482455
+ HZZ-signal: weighted events Error 0.00225489139136
+ signalSum: weighted events 43.3186195251
+ signalSum: weighted events Error 0.679312040505
+ totexp: weighted events 45.6819631706
+ totexp: weighted events Error 0.756345392527
+Number of events in data: 50
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass3j
+Channels: eeee,eemm,mmee,mmmm
+
+ nonprompt: weighted events 1.30087134187
+ nonprompt: weighted events Error 0.347025107872
+ VVV: weighted events 1.61356372673
+ VVV: weighted events Error 0.0991868425858
+ zzjj4l-ewk: weighted events 1.80181388215
+ zzjj4l-ewk: weighted events Error 0.00380375184936
+ ggZZ: weighted events 3.3195182773
+ ggZZ: weighted events Error 0.0198740249865
+ qqZZ-amcnlo: weighted events 17.5478743231
+ qqZZ-amcnlo: weighted events Error 0.485338018765
+ HZZ-signal: weighted events 0.105134416343
+ HZZ-signal: weighted events Error 0.00231474845447
+ signalSum: weighted events 22.7743408989
+ signalSum: weighted events Error 0.4857651654
+ totexp: weighted events 25.6887759675
+ totexp: weighted events Error 0.605171257705
+Number of events in data: 29
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass3j
+Channels: eeee
+
+ nonprompt: weighted events 0.396543506303
+ nonprompt: weighted events Error 0.191652793758
+ VVV: weighted events 0.367477118415
+ VVV: weighted events Error 0.0455138918267
+ zzjj4l-ewk: weighted events 0.344898534994
+ zzjj4l-ewk: weighted events Error 0.00160818420658
+ ggZZ: weighted events 0.609597091068
+ ggZZ: weighted events Error 0.0076316668828
+ qqZZ-amcnlo: weighted events 3.5376110368
+ qqZZ-amcnlo: weighted events Error 0.20934717889
+ HZZ-signal: weighted events 0.0215947466508
+ HZZ-signal: weighted events Error 0.000899677093644
+ signalSum: weighted events 4.51370140951
+ signalSum: weighted events Error 0.209494341986
+ totexp: weighted events 5.27772203423
+ totexp: weighted events Error 0.287559014862
+Number of events in data: 3
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass3j
+Channels: mmmm
+
+ nonprompt: weighted events 0.249556964004
+ nonprompt: weighted events Error 0.160163462385
+ VVV: weighted events 0.443999193567
+ VVV: weighted events Error 0.0473618068592
+ zzjj4l-ewk: weighted events 0.564505211165
+ zzjj4l-ewk: weighted events Error 0.00218447974266
+ ggZZ: weighted events 1.01929235906
+ ggZZ: weighted events Error 0.0103869792079
+ qqZZ-amcnlo: weighted events 5.53491483725
+ qqZZ-amcnlo: weighted events Error 0.284896405598
+ HZZ-signal: weighted events 0.0332934830751
+ HZZ-signal: weighted events Error 0.00139255751324
+ signalSum: weighted events 7.15200589054
+ signalSum: weighted events Error 0.285097461279
+ totexp: weighted events 7.84556204812
+ totexp: weighted events Error 0.330417974481
+Number of events in data: 9
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass3j
+Channels: eemm,mmee
+
+ nonprompt: weighted events 0.709072565426
+ nonprompt: weighted events Error 0.240921766255
+ VVV: weighted events 0.80336375145
+ VVV: weighted events Error 0.0743194096045
+ zzjj4l-ewk: weighted events 0.892410135989
+ zzjj4l-ewk: weighted events Error 0.00266651831854
+ ggZZ: weighted events 1.69062882717
+ ggZZ: weighted events Error 0.0151276301081
+ qqZZ-amcnlo: weighted events 8.47534844906
+ qqZZ-amcnlo: weighted events Error 0.332506825835
+ HZZ-signal: weighted events 0.0502461866173
+ HZZ-signal: weighted events Error 0.00161537150741
+ signalSum: weighted events 11.1086335988
+ signalSum: weighted events Error 0.332865369428
+ totexp: weighted events 12.6210699157
+ totexp: weighted events Error 0.417571582203
+Number of events in data: 17
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass4j
+Channels: eeee,eemm,mmee,mmmm
+
+ nonprompt: weighted events 0.977597244962
+ nonprompt: weighted events Error 0.260324134068
+ VVV: weighted events 1.22384879054
+ VVV: weighted events Error 0.0761047487331
+ zzjj4l-ewk: weighted events 0.828802640361
+ zzjj4l-ewk: weighted events Error 0.00255722709494
+ ggZZ: weighted events 0.762590560846
+ ggZZ: weighted events Error 0.00951287469163
+ qqZZ-amcnlo: weighted events 5.66476236035
+ qqZZ-amcnlo: weighted events Error 0.269903451771
+ HZZ-signal: weighted events 0.0848993726405
+ HZZ-signal: weighted events Error 0.0019197429216
+ signalSum: weighted events 7.3410549342
+ signalSum: weighted events Error 0.270089971835
+ totexp: weighted events 9.5425009697
+ totexp: weighted events Error 0.382765176634
+Number of events in data: 16
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass4j
+Channels: eeee
+
+ nonprompt: weighted events 0.348109328298
+ nonprompt: weighted events Error 0.120168567083
+ VVV: weighted events 0.238518683826
+ VVV: weighted events Error 0.0378455550311
+ zzjj4l-ewk: weighted events 0.158825711404
+ zzjj4l-ewk: weighted events Error 0.00108231927913
+ ggZZ: weighted events 0.138307097186
+ ggZZ: weighted events Error 0.00359639782085
+ qqZZ-amcnlo: weighted events 0.938613713555
+ qqZZ-amcnlo: weighted events Error 0.110163580457
+ HZZ-signal: weighted events 0.0181348757303
+ HZZ-signal: weighted events Error 0.000896245567514
+ signalSum: weighted events 1.25388139788
+ signalSum: weighted events Error 0.1102312261
+ totexp: weighted events 1.84050941
+ totexp: weighted events Error 0.167402788979
+Number of events in data: 2
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass4j
+Channels: mmmm
+
+ nonprompt: weighted events 0.296419083111
+ nonprompt: weighted events Error 0.154609442253
+ VVV: weighted events 0.367495337272
+ VVV: weighted events Error 0.040080972807
+ zzjj4l-ewk: weighted events 0.261587481794
+ zzjj4l-ewk: weighted events Error 0.00147376568686
+ ggZZ: weighted events 0.222381080998
+ ggZZ: weighted events Error 0.00483351572725
+ qqZZ-amcnlo: weighted events 1.77124945878
+ qqZZ-amcnlo: weighted events Error 0.160273478838
+ HZZ-signal: weighted events 0.0276417530092
+ HZZ-signal: weighted events Error 0.00105876654599
+ signalSum: weighted events 2.28285977458
+ signalSum: weighted events Error 0.160356614659
+ totexp: weighted events 2.94677419496
+ totexp: weighted events Error 0.226328981529
+Number of events in data: 7
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass4j
+Channels: eemm,mmee
+
+ nonprompt: weighted events 0.383876118061
+ nonprompt: weighted events Error 0.171534517313
+ VVV: weighted events 0.61783476944
+ VVV: weighted events Error 0.0524705856929
+ zzjj4l-ewk: weighted events 0.408389447162
+ zzjj4l-ewk: weighted events Error 0.00178773882134
+ ggZZ: weighted events 0.401902382661
+ ggZZ: weighted events Error 0.0073619177751
+ qqZZ-amcnlo: weighted events 2.95489918802
+ qqZZ-amcnlo: weighted events Error 0.187147724538
+ HZZ-signal: weighted events 0.0391227439009
+ HZZ-signal: weighted events Error 0.00132709086684
+ signalSum: weighted events 3.80431376175
+ signalSum: weighted events Error 0.187305701497
+ totexp: weighted events 4.80602464925
+ totexp: weighted events Error 0.259346638317
+Number of events in data: 7
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: MassFull
+Channels: eeee,eemm,mmee,mmmm
+
+ nonprompt: weighted events 82.4203443305
+ nonprompt: weighted events Error 3.16152551987
+ nonprompt: 80-100 GeV 8.38363298213
+ nonprompt: 80-100 GeV Error 1.08319379164
+ nonprompt: 120-130 GeV 7.57353786052
+ nonprompt: 120-130 GeV Error 0.973843963125
+ VVV: weighted events 15.1693790147
+ VVV: weighted events Error 0.373505851166
+ VVV: 80-100 GeV 0.0372473188444
+ VVV: 80-100 GeV Error 0.00564982127135
+ VVV: 120-130 GeV 0.131579984218
+ VVV: 120-130 GeV Error 0.0272057050411
+ zzjj4l-ewk: weighted events 7.12120745866
+ zzjj4l-ewk: weighted events Error 0.00760611351789
+ zzjj4l-ewk: 80-100 GeV 0.000516377035934
+ zzjj4l-ewk: 80-100 GeV Error 6.58598491569e-05
+ zzjj4l-ewk: 120-130 GeV 0.0462856648241
+ zzjj4l-ewk: 120-130 GeV Error 0.000620392675551
+ ggZZ: weighted events 177.845306859
+ ggZZ: weighted events Error 0.149452625598
+ ggZZ: 80-100 GeV 2.47243227205
+ ggZZ: 80-100 GeV Error 0.017104945198
+ ggZZ: 120-130 GeV 1.93839307822
+ ggZZ: 120-130 GeV Error 0.0173899799528
+ qqZZ-amcnlo: weighted events 1587.68219387
+ qqZZ-amcnlo: weighted events Error 4.17685041686
+ qqZZ-amcnlo: 80-100 GeV 471.320519682
+ qqZZ-amcnlo: 80-100 GeV Error 2.20224767967
+ qqZZ-amcnlo: 120-130 GeV 34.5689184842
+ qqZZ-amcnlo: 120-130 GeV Error 0.607137384686
+ HZZ-signal: weighted events 67.8635350695
+ HZZ-signal: weighted events Error 0.163561146992
+ HZZ-signal: 80-100 GeV 0.727566283131
+ HZZ-signal: 80-100 GeV Error 0.0171256688672
+ HZZ-signal: 120-130 GeV 56.3726435221
+ HZZ-signal: 120-130 GeV Error 0.15198053159
+ signalSum: weighted events 1840.51224325
+ signalSum: weighted events Error 4.18272944307
+ signalSum: 80-100 GeV 474.521034614
+ signalSum: 80-100 GeV Error 2.20238069249
+ signalSum: 120-130 GeV 92.9262407494
+ signalSum: 120-130 GeV Error 0.626112355856
+ totexp: weighted events 1938.1019666
+ totexp: weighted events Error 5.25642234105
+ totexp: 80-100 GeV 482.941914915
+ totexp: 80-100 GeV Error 2.45434745408
+ totexp: 120-130 GeV 100.631358594
+ totexp: 120-130 GeV Error 1.15807119689
+Number of events in data: 1900
+
+data events 80-100 GeV: 436
+
+data events 120-130 GeV: 108
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: MassFull
+Channels: eeee
+
+ nonprompt: weighted events 21.6691037883
+ nonprompt: weighted events Error 1.19126719161
+ nonprompt: 80-100 GeV 1.48416932993
+ nonprompt: 80-100 GeV Error 0.28547226884
+ nonprompt: 120-130 GeV 1.61386223662
+ nonprompt: 120-130 GeV Error 0.286872669525
+ VVV: weighted events 3.31402236813
+ VVV: weighted events Error 0.171664794812
+ VVV: 80-100 GeV 0.00915122492718
+ VVV: 80-100 GeV Error 0.00269679965051
+ VVV: 120-130 GeV 0.0262009159716
+ VVV: 120-130 GeV Error 0.00999709094809
+ zzjj4l-ewk: weighted events 1.38811553207
+ zzjj4l-ewk: weighted events Error 0.00324777032442
+ zzjj4l-ewk: 80-100 GeV 0.000149337673915
+ zzjj4l-ewk: 80-100 GeV Error 3.48173425659e-05
+ zzjj4l-ewk: 120-130 GeV 0.00791408236325
+ zzjj4l-ewk: 120-130 GeV Error 0.00024821076427
+ ggZZ: weighted events 34.3027186453
+ ggZZ: weighted events Error 0.0592306280655
+ ggZZ: 80-100 GeV 0.43928459684
+ ggZZ: 80-100 GeV Error 0.00672845533119
+ ggZZ: 120-130 GeV 0.325988176724
+ ggZZ: 120-130 GeV Error 0.00663487074031
+ qqZZ-amcnlo: weighted events 258.620538954
+ qqZZ-amcnlo: weighted events Error 1.66230415429
+ qqZZ-amcnlo: 80-100 GeV 57.1279471963
+ qqZZ-amcnlo: 80-100 GeV Error 0.755551311117
+ qqZZ-amcnlo: 120-130 GeV 4.76685614623
+ qqZZ-amcnlo: 120-130 GeV Error 0.223975912148
+ HZZ-signal: weighted events 11.9493698982
+ HZZ-signal: weighted events Error 0.065754571059
+ HZZ-signal: 80-100 GeV 0.163023044433
+ HZZ-signal: 80-100 GeV Error 0.00788964690415
+ HZZ-signal: 120-130 GeV 8.97501137013
+ HZZ-signal: 120-130 GeV Error 0.0580461752905
+ signalSum: weighted events 306.26074303
+ signalSum: weighted events Error 1.66466140109
+ signalSum: 80-100 GeV 57.7304041752
+ signalSum: 80-100 GeV Error 0.755622461009
+ signalSum: 120-130 GeV 14.0757697754
+ signalSum: 120-130 GeV Error 0.231470626229
+ totexp: weighted events 331.243869186
+ totexp: weighted events Error 2.05418692038
+ totexp: 80-100 GeV 59.2237247301
+ totexp: 80-100 GeV Error 0.807754289736
+ totexp: 120-130 GeV 15.715832928
+ totexp: 120-130 GeV Error 0.368747232063
+Number of events in data: 325
+
+data events 80-100 GeV: 61
+
+data events 120-130 GeV: 20
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: MassFull
+Channels: mmmm
+
+ nonprompt: weighted events 20.539359845
+ nonprompt: weighted events Error 1.89299945355
+ nonprompt: 80-100 GeV 2.90070895442
+ nonprompt: 80-100 GeV Error 0.761155915359
+ nonprompt: 120-130 GeV 2.03076296662
+ nonprompt: 120-130 GeV Error 0.60889797503
+ VVV: weighted events 4.56863036328
+ VVV: weighted events Error 0.207764999175
+ VVV: 80-100 GeV 0.0109277984829
+ VVV: 80-100 GeV Error 0.00320487776075
+ VVV: 120-130 GeV 0.0304562728058
+ VVV: 120-130 GeV Error 0.00551726697265
+ zzjj4l-ewk: weighted events 2.22100630824
+ zzjj4l-ewk: weighted events Error 0.00435821769903
+ zzjj4l-ewk: 80-100 GeV 0.000110308760576
+ zzjj4l-ewk: 80-100 GeV Error 3.07762871416e-05
+ zzjj4l-ewk: 120-130 GeV 0.015099856867
+ zzjj4l-ewk: 120-130 GeV Error 0.000363133248777
+ ggZZ: weighted events 57.5224230492
+ ggZZ: weighted events Error 0.0807180954171
+ ggZZ: 80-100 GeV 1.48272806572
+ ggZZ: 80-100 GeV Error 0.0129282104084
+ ggZZ: 120-130 GeV 0.804222881256
+ ggZZ: 120-130 GeV Error 0.0106871895172
+ qqZZ-amcnlo: weighted events 578.007611337
+ qqZZ-amcnlo: weighted events Error 2.60539769428
+ qqZZ-amcnlo: 80-100 GeV 214.229780198
+ qqZZ-amcnlo: 80-100 GeV Error 1.53557408851
+ qqZZ-amcnlo: 120-130 GeV 13.1012878778
+ qqZZ-amcnlo: 120-130 GeV Error 0.386091950797
+ HZZ-signal: weighted events 24.8285373622
+ HZZ-signal: weighted events Error 0.101682483769
+ HZZ-signal: 80-100 GeV 0.219525750363
+ HZZ-signal: 80-100 GeV Error 0.00958374595595
+ HZZ-signal: 120-130 GeV 21.9220739684
+ HZZ-signal: 120-130 GeV Error 0.0971670524613
+ signalSum: weighted events 662.579578056
+ signalSum: weighted events Error 2.60863391028
+ signalSum: 80-100 GeV 215.932144323
+ signalSum: 80-100 GeV Error 1.53565841549
+ signalSum: 120-130 GeV 35.8426845843
+ signalSum: 120-130 GeV Error 0.398274752451
+ totexp: weighted events 687.687568264
+ totexp: weighted events Error 3.22979629449
+ totexp: 80-100 GeV 218.843781076
+ totexp: 80-100 GeV Error 1.71394730602
+ totexp: 120-130 GeV 37.9039038237
+ totexp: 120-130 GeV Error 0.727605636777
+Number of events in data: 700
+
+data events 80-100 GeV: 206
+
+data events 120-130 GeV: 44
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: MassFull
+Channels: eemm,mmee
+
+ nonprompt: weighted events 40.3216931916
+ nonprompt: weighted events Error 2.23443038823
+ nonprompt: 80-100 GeV 3.99875469778
+ nonprompt: 80-100 GeV Error 0.715860354035
+ nonprompt: 120-130 GeV 3.92891265728
+ nonprompt: 120-130 GeV Error 0.703789309382
+ VVV: weighted events 7.28672628333
+ VVV: weighted events Error 0.258595290358
+ VVV: 80-100 GeV 0.0171682954343
+ VVV: 80-100 GeV Error 0.00379163692643
+ VVV: 120-130 GeV 0.0749227954408
+ VVV: 120-130 GeV Error 0.0246934874919
+ zzjj4l-ewk: weighted events 3.51208561834
+ zzjj4l-ewk: weighted events Error 0.00532079780246
+ zzjj4l-ewk: 80-100 GeV 0.000256730601443
+ zzjj4l-ewk: 80-100 GeV Error 4.66700389693e-05
+ zzjj4l-ewk: 120-130 GeV 0.0232717255938
+ zzjj4l-ewk: 120-130 GeV Error 0.000437507407949
+ ggZZ: weighted events 86.0201651644
+ ggZZ: weighted events Error 0.110961295367
+ ggZZ: 80-100 GeV 0.550419609487
+ ggZZ: 80-100 GeV Error 0.00895368162927
+ ggZZ: 120-130 GeV 0.808182020245
+ ggZZ: 120-130 GeV Error 0.0120072425327
+ qqZZ-amcnlo: weighted events 751.054043575
+ qqZZ-amcnlo: weighted events Error 2.80975571146
+ qqZZ-amcnlo: 80-100 GeV 199.962792288
+ qqZZ-amcnlo: 80-100 GeV Error 1.38601921977
+ qqZZ-amcnlo: 120-130 GeV 16.7007744602
+ qqZZ-amcnlo: 120-130 GeV Error 0.411562389184
+ HZZ-signal: weighted events 31.085627809
+ HZZ-signal: weighted events Error 0.109951160453
+ HZZ-signal: 80-100 GeV 0.345017488335
+ HZZ-signal: 80-100 GeV Error 0.0117980430296
+ HZZ-signal: 120-130 GeV 25.4755581836
+ HZZ-signal: 120-130 GeV Error 0.101426265989
+ signalSum: weighted events 871.671922167
+ signalSum: weighted events Error 2.81409970252
+ signalSum: 80-100 GeV 200.858486116
+ signalSum: 80-100 GeV Error 1.38609835221
+ signalSum: 120-130 GeV 43.0077863897
+ signalSum: 120-130 GeV Error 0.424046286282
+ totexp: weighted events 919.280341642
+ totexp: weighted events Error 3.60259737131
+ totexp: 80-100 GeV 204.874409109
+ totexp: 80-100 GeV Error 1.56004457147
+ totexp: 120-130 GeV 47.0116218424
+ totexp: 120-130 GeV Error 0.822036746888
+Number of events in data: 875
+
+data events 80-100 GeV: 169
+
+data events 120-130 GeV: 44
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass0jFull
+Channels: eeee,eemm,mmee,mmmm
+
+ nonprompt: weighted events 41.7853789237
+ nonprompt: weighted events Error 2.2143604484
+ nonprompt: 80-100 GeV 4.35656992011
+ nonprompt: 80-100 GeV Error 0.832704412373
+ nonprompt: 120-130 GeV 4.59262268735
+ nonprompt: 120-130 GeV Error 0.738060409675
+ VVV: weighted events 2.40960763033
+ VVV: weighted events Error 0.203555376985
+ VVV: 80-100 GeV 0.0
+ VVV: 80-100 GeV Error 0.0
+ VVV: 120-130 GeV 0.00262735365293
+ VVV: 120-130 GeV Error 0.00151976174952
+ zzjj4l-ewk: weighted events 0.0640845897184
+ zzjj4l-ewk: weighted events Error 0.000741388711616
+ zzjj4l-ewk: 80-100 GeV 2.8877726918e-05
+ zzjj4l-ewk: 80-100 GeV Error 1.67084811844e-05
+ zzjj4l-ewk: 120-130 GeV 0.00236147728746
+ zzjj4l-ewk: 120-130 GeV Error 0.000143125658645
+ ggZZ: weighted events 100.89966523
+ ggZZ: weighted events Error 0.112786785964
+ ggZZ: 80-100 GeV 2.12521770575
+ ggZZ: 80-100 GeV Error 0.0157985371911
+ ggZZ: 120-130 GeV 1.43119389038
+ ggZZ: 120-130 GeV Error 0.0147787635131
+ qqZZ-amcnlo: weighted events 1082.97524821
+ qqZZ-amcnlo: weighted events Error 3.14760653294
+ qqZZ-amcnlo: 80-100 GeV 350.189171169
+ qqZZ-amcnlo: 80-100 GeV Error 1.76819040778
+ qqZZ-amcnlo: 120-130 GeV 25.6850034646
+ qqZZ-amcnlo: 120-130 GeV Error 0.481435238563
+ HZZ-signal: weighted events 37.2614702666
+ HZZ-signal: weighted events Error 0.128103568842
+ HZZ-signal: 80-100 GeV 0.373522322312
+ HZZ-signal: 80-100 GeV Error 0.0130784861446
+ HZZ-signal: 120-130 GeV 31.2683409764
+ HZZ-signal: 120-130 GeV Error 0.118933856469
+ signalSum: weighted events 1221.20046829
+ signalSum: weighted events Error 3.15223076872
+ signalSum: 80-100 GeV 352.687940074
+ signalSum: 80-100 GeV Error 1.76830935049
+ signalSum: 120-130 GeV 58.3868998086
+ signalSum: 120-130 GeV Error 0.496128595709
+ totexp: weighted events 1265.39545485
+ totexp: weighted events Error 3.85763992698
+ totexp: 80-100 GeV 357.044509994
+ totexp: 80-100 GeV Error 1.95456250793
+ totexp: 120-130 GeV 62.9821498496
+ totexp: 120-130 GeV Error 0.889313814964
+Number of events in data: 1280
+
+data events 80-100 GeV: 320
+
+data events 120-130 GeV: 70
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass0jFull
+Channels: eeee
+
+ nonprompt: weighted events 9.5354224907
+ nonprompt: weighted events Error 0.781907404381
+ nonprompt: 80-100 GeV 0.753582867302
+ nonprompt: 80-100 GeV Error 0.206050924776
+ nonprompt: 120-130 GeV 0.635691646618
+ nonprompt: 120-130 GeV Error 0.202172503741
+ VVV: weighted events 0.397183565445
+ VVV: weighted events Error 0.0691223791767
+ VVV: 80-100 GeV 0.0
+ VVV: 80-100 GeV Error 0.0
+ VVV: 120-130 GeV 0.0
+ VVV: 120-130 GeV Error 0.0
+ zzjj4l-ewk: weighted events 0.0123942482035
+ zzjj4l-ewk: weighted events Error 0.000315429368526
+ zzjj4l-ewk: 80-100 GeV 0.0
+ zzjj4l-ewk: 80-100 GeV Error 0.0
+ zzjj4l-ewk: 120-130 GeV 0.0003587922577
+ zzjj4l-ewk: 120-130 GeV Error 5.54328764472e-05
+ ggZZ: weighted events 19.427986827
+ ggZZ: weighted events Error 0.0446305421075
+ ggZZ: 80-100 GeV 0.372171092655
+ ggZZ: 80-100 GeV Error 0.00614600821062
+ ggZZ: 120-130 GeV 0.233211797364
+ ggZZ: 120-130 GeV Error 0.00553629556508
+ qqZZ-amcnlo: weighted events 173.715089337
+ qqZZ-amcnlo: weighted events Error 1.22093973663
+ qqZZ-amcnlo: 80-100 GeV 40.7654356486
+ qqZZ-amcnlo: 80-100 GeV Error 0.583310730517
+ qqZZ-amcnlo: 120-130 GeV 3.59478055564
+ qqZZ-amcnlo: 120-130 GeV Error 0.174333418076
+ HZZ-signal: weighted events 6.36809147454
+ HZZ-signal: weighted events Error 0.0508893683972
+ HZZ-signal: 80-100 GeV 0.0825905256259
+ HZZ-signal: 80-100 GeV Error 0.00599876324506
+ HZZ-signal: 120-130 GeV 4.80857415908
+ HZZ-signal: 120-130 GeV Error 0.0447810651086
+ signalSum: weighted events 199.523561887
+ signalSum: weighted events Error 1.22281460291
+ signalSum: 80-100 GeV 41.2201972669
+ signalSum: 80-100 GeV Error 0.583373951179
+ signalSum: 120-130 GeV 8.63692530435
+ signalSum: 120-130 GeV Error 0.180078144403
+ totexp: weighted events 209.456167943
+ totexp: weighted events Error 1.45307695784
+ totexp: 80-100 GeV 41.9737801342
+ totexp: 80-100 GeV Error 0.618693906964
+ totexp: 120-130 GeV 9.27261695097
+ totexp: 120-130 GeV Error 0.270743161245
+Number of events in data: 221
+
+data events 80-100 GeV: 43
+
+data events 120-130 GeV: 14
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass0jFull
+Channels: mmmm
+
+ nonprompt: weighted events 10.7610590728
+ nonprompt: weighted events Error 1.34267519875
+ nonprompt: 80-100 GeV 1.97205583951
+ nonprompt: 80-100 GeV Error 0.62880536834
+ nonprompt: 120-130 GeV 1.28896010101
+ nonprompt: 120-130 GeV Error 0.452540684427
+ VVV: weighted events 0.769058328654
+ VVV: weighted events Error 0.122381262328
+ VVV: 80-100 GeV 0.0
+ VVV: 80-100 GeV Error 0.0
+ VVV: 120-130 GeV 0.0
+ VVV: 120-130 GeV Error 0.0
+ zzjj4l-ewk: weighted events 0.0192349278824
+ zzjj4l-ewk: weighted events Error 0.000417322151335
+ zzjj4l-ewk: 80-100 GeV 9.22240679881e-06
+ zzjj4l-ewk: 80-100 GeV Error 9.22240679881e-06
+ zzjj4l-ewk: 120-130 GeV 0.000674855515271
+ zzjj4l-ewk: 120-130 GeV Error 7.81105307059e-05
+ ggZZ: weighted events 33.1206833106
+ ggZZ: weighted events Error 0.06141623923
+ ggZZ: 80-100 GeV 1.28140250502
+ ggZZ: 80-100 GeV Error 0.0119871074192
+ ggZZ: 120-130 GeV 0.601259947893
+ ggZZ: 120-130 GeV Error 0.00910559824691
+ qqZZ-amcnlo: weighted events 408.295928283
+ qqZZ-amcnlo: weighted events Error 1.98241723552
+ qqZZ-amcnlo: 80-100 GeV 164.697729913
+ qqZZ-amcnlo: 80-100 GeV Error 1.24256391222
+ qqZZ-amcnlo: 120-130 GeV 9.92886591266
+ qqZZ-amcnlo: 120-130 GeV Error 0.305236559635
+ HZZ-signal: weighted events 13.8383352596
+ HZZ-signal: weighted events Error 0.0801042687867
+ HZZ-signal: 80-100 GeV 0.113570280914
+ HZZ-signal: 80-100 GeV Error 0.00732069337678
+ HZZ-signal: 120-130 GeV 12.3643747839
+ HZZ-signal: 120-130 GeV Error 0.0765713543611
+ signalSum: weighted events 455.274181782
+ signalSum: weighted events Error 1.98498536976
+ signalSum: 80-100 GeV 166.092711921
+ signalSum: 80-100 GeV Error 1.24264329529
+ signalSum: 120-130 GeV 22.8951755
+ signalSum: 120-130 GeV Error 0.314826059384
+ totexp: weighted events 466.804299183
+ totexp: weighted events Error 2.39956679025
+ totexp: 80-100 GeV 168.06476776
+ totexp: 80-100 GeV Error 1.3926803476
+ totexp: 120-130 GeV 24.184135601
+ totexp: 120-130 GeV Error 0.55127898448
+Number of events in data: 472
+
+data events 80-100 GeV: 152
+
+data events 120-130 GeV: 32
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass0jFull
+Channels: eemm,mmee
+
+ nonprompt: weighted events 21.5133567037
+ nonprompt: weighted events Error 1.57773138306
+ nonprompt: 80-100 GeV 1.6309312133
+ nonprompt: 80-100 GeV Error 0.505513069594
+ nonprompt: 120-130 GeV 2.66797093972
+ nonprompt: 120-130 GeV Error 0.546869615173
+ VVV: weighted events 1.24336573623
+ VVV: weighted events Error 0.147240330167
+ VVV: 80-100 GeV 0.0
+ VVV: 80-100 GeV Error 0.0
+ VVV: 120-130 GeV 0.00262735365293
+ VVV: 120-130 GeV Error 0.00151976174952
+ zzjj4l-ewk: weighted events 0.0324554136325
+ zzjj4l-ewk: weighted events Error 0.000525360597293
+ zzjj4l-ewk: 80-100 GeV 1.96553201192e-05
+ zzjj4l-ewk: 80-100 GeV Error 1.39327153249e-05
+ zzjj4l-ewk: 120-130 GeV 0.00132782951449
+ zzjj4l-ewk: 120-130 GeV Error 0.000106352693263
+ ggZZ: weighted events 48.350995092
+ ggZZ: weighted events Error 0.0834087486901
+ ggZZ: 80-100 GeV 0.471644108076
+ ggZZ: 80-100 GeV Error 0.00825406664458
+ ggZZ: 120-130 GeV 0.596722145126
+ ggZZ: 120-130 GeV Error 0.0102395977928
+ qqZZ-amcnlo: weighted events 500.964230585
+ qqZZ-amcnlo: weighted events Error 2.11819615476
+ qqZZ-amcnlo: 80-100 GeV 144.726005607
+ qqZZ-amcnlo: 80-100 GeV Error 1.1145765267
+ qqZZ-amcnlo: 120-130 GeV 12.1613569963
+ qqZZ-amcnlo: 120-130 GeV Error 0.328965637923
+ HZZ-signal: weighted events 17.0550435324
+ HZZ-signal: weighted events Error 0.0860470955724
+ HZZ-signal: 80-100 GeV 0.177361515772
+ HZZ-signal: 80-100 GeV Error 0.0090260228144
+ HZZ-signal: 120-130 GeV 14.0953920334
+ HZZ-signal: 120-130 GeV Error 0.0792259181938
+ signalSum: weighted events 566.402724623
+ signalSum: weighted events Error 2.121583453
+ signalSum: 80-100 GeV 145.375030887
+ signalSum: 80-100 GeV Error 1.11464363488
+ signalSum: 120-130 GeV 26.8547990043
+ signalSum: 120-130 GeV Error 0.338526214231
+ totexp: weighted events 589.159447063
+ totexp: weighted events Error 2.64802424082
+ totexp: 80-100 GeV 147.0059621
+ totexp: 80-100 GeV Error 1.22391743852
+ totexp: 120-130 GeV 29.5253972976
+ totexp: 120-130 GeV Error 0.643170804217
+Number of events in data: 587
+
+data events 80-100 GeV: 125
+
+data events 120-130 GeV: 24
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass1jFull
+Channels: eeee,eemm,mmee,mmmm
+
+ nonprompt: weighted events 21.2672481626
+ nonprompt: weighted events Error 1.63431370796
+ nonprompt: 80-100 GeV 2.3410386766
+ nonprompt: 80-100 GeV Error 0.537969633363
+ nonprompt: 120-130 GeV 1.93632388523
+ nonprompt: 120-130 GeV Error 0.508016144516
+ VVV: weighted events 3.98485165501
+ VVV: weighted events Error 0.209532206591
+ VVV: 80-100 GeV 0.00750080949026
+ VVV: 80-100 GeV Error 0.00254222113618
+ VVV: 120-130 GeV 0.0434276683462
+ VVV: 120-130 GeV Error 0.0242341217662
+ zzjj4l-ewk: weighted events 0.814569840659
+ zzjj4l-ewk: weighted events Error 0.00261288163422
+ zzjj4l-ewk: 80-100 GeV 6.90732110582e-05
+ zzjj4l-ewk: 80-100 GeV Error 2.32754048044e-05
+ zzjj4l-ewk: 120-130 GeV 0.0126190531896
+ zzjj4l-ewk: 120-130 GeV Error 0.000326336124995
+ ggZZ: weighted events 55.6167988894
+ ggZZ: weighted events Error 0.0835037777868
+ ggZZ: 80-100 GeV 0.313867730895
+ ggZZ: 80-100 GeV Error 0.00618010215572
+ ggZZ: 120-130 GeV 0.422563669142
+ ggZZ: 120-130 GeV Error 0.00824055809537
+ qqZZ-amcnlo: weighted events 352.789851219
+ qqZZ-amcnlo: weighted events Error 2.32071878713
+ qqZZ-amcnlo: 80-100 GeV 88.4430667385
+ qqZZ-amcnlo: 80-100 GeV Error 1.13876340298
+ qqZZ-amcnlo: 120-130 GeV 6.55074942962
+ qqZZ-amcnlo: 120-130 GeV Error 0.324261591913
+ HZZ-signal: weighted events 18.252854645
+ HZZ-signal: weighted events Error 0.0832207657794
+ HZZ-signal: 80-100 GeV 0.204386190034
+ HZZ-signal: 80-100 GeV Error 0.00903827541572
+ HZZ-signal: 120-130 GeV 15.193407966
+ HZZ-signal: 120-130 GeV Error 0.0774381735306
+ signalSum: weighted events 427.474074595
+ signalSum: weighted events Error 2.32371278192
+ signalSum: 80-100 GeV 88.9613897327
+ signalSum: 80-100 GeV Error 1.13881603984
+ signalSum: 120-130 GeV 22.179340118
+ signalSum: 120-130 GeV Error 0.333482029505
+ totexp: weighted events 452.726174412
+ totexp: weighted events Error 2.84860073272
+ totexp: 80-100 GeV 91.3099292188
+ totexp: 80-100 GeV Error 1.25949186655
+ totexp: 120-130 GeV 24.1590916716
+ totexp: 120-130 GeV Error 0.608175928288
+Number of events in data: 392
+
+data events 80-100 GeV: 81
+
+data events 120-130 GeV: 27
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass1jFull
+Channels: eeee
+
+ nonprompt: weighted events 6.55801225503
+ nonprompt: weighted events Error 0.655506747488
+ nonprompt: 80-100 GeV 0.33204337217
+ nonprompt: 80-100 GeV Error 0.132840963192
+ nonprompt: 120-130 GeV 0.536075602477
+ nonprompt: 120-130 GeV Error 0.143569763673
+ VVV: weighted events 0.972738130403
+ VVV: weighted events Error 0.113130296123
+ VVV: 80-100 GeV 0.001542696807
+ VVV: 80-100 GeV Error 0.00109289037267
+ VVV: 120-130 GeV 0.00201449325865
+ VVV: 120-130 GeV Error 0.00146116279267
+ zzjj4l-ewk: weighted events 0.161635304828
+ zzjj4l-ewk: weighted events Error 0.00112564287942
+ zzjj4l-ewk: 80-100 GeV 1.52074641094e-05
+ zzjj4l-ewk: 80-100 GeV Error 1.08400283206e-05
+ zzjj4l-ewk: 120-130 GeV 0.00212031316347
+ zzjj4l-ewk: 120-130 GeV Error 0.000128354546908
+ ggZZ: weighted events 10.7538158066
+ ggZZ: weighted events Error 0.0331708897059
+ ggZZ: 80-100 GeV 0.060137479038
+ ggZZ: 80-100 GeV Error 0.00256528018138
+ ggZZ: 120-130 GeV 0.0767256696768
+ ggZZ: 120-130 GeV Error 0.00327287562611
+ qqZZ-amcnlo: weighted events 59.0343322831
+ qqZZ-amcnlo: weighted events Error 0.948625896746
+ qqZZ-amcnlo: 80-100 GeV 11.8740984613
+ qqZZ-amcnlo: 80-100 GeV Error 0.411246551535
+ qqZZ-amcnlo: 120-130 GeV 0.86366191009
+ qqZZ-amcnlo: 120-130 GeV Error 0.124124844917
+ HZZ-signal: weighted events 3.24220424768
+ HZZ-signal: weighted events Error 0.0336934724146
+ HZZ-signal: 80-100 GeV 0.0416285650457
+ HZZ-signal: 80-100 GeV Error 0.00387550907479
+ HZZ-signal: 120-130 GeV 2.45516176271
+ HZZ-signal: 120-130 GeV Error 0.0298887024968
+ signalSum: weighted events 73.1919876422
+ signalSum: weighted events Error 0.949804146683
+ signalSum: 80-100 GeV 11.9758797128
+ signalSum: 80-100 GeV Error 0.411272812741
+ signalSum: 120-130 GeV 3.39766965564
+ signalSum: 120-130 GeV Error 0.127714681428
+ totexp: weighted events 80.7227380277
+ totexp: weighted events Error 1.15957555897
+ totexp: 80-100 GeV 12.3094657818
+ totexp: 80-100 GeV Error 0.432195838031
+ totexp: 120-130 GeV 3.93575975138
+ totexp: 120-130 GeV Error 0.192159964327
+Number of events in data: 67
+
+data events 80-100 GeV: 13
+
+data events 120-130 GeV: 4
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass1jFull
+Channels: mmmm
+
+ nonprompt: weighted events 5.1501733376
+ nonprompt: weighted events Error 0.970232443465
+ nonprompt: 80-100 GeV 0.606391986657
+ nonprompt: 80-100 GeV Error 0.338665873195
+ nonprompt: 120-130 GeV 0.512231552358
+ nonprompt: 120-130 GeV Error 0.317883110831
+ VVV: weighted events 1.1577701221
+ VVV: weighted events Error 0.105869326291
+ VVV: 80-100 GeV 0.00168114861832
+ VVV: 80-100 GeV Error 0.0012335623542
+ VVV: 120-130 GeV 0.00692561445083
+ VVV: 120-130 GeV Error 0.00310948196004
+ zzjj4l-ewk: weighted events 0.249171137424
+ zzjj4l-ewk: weighted events Error 0.00148344830263
+ zzjj4l-ewk: 80-100 GeV 0.0
+ zzjj4l-ewk: 80-100 GeV Error 0.0
+ zzjj4l-ewk: 120-130 GeV 0.00414610185149
+ zzjj4l-ewk: 120-130 GeV Error 0.000192294743444
+ ggZZ: weighted events 17.7131211375
+ ggZZ: weighted events Error 0.0446975001995
+ ggZZ: 80-100 GeV 0.182868994544
+ ggZZ: 80-100 GeV Error 0.00459050897729
+ ggZZ: 120-130 GeV 0.169873626553
+ ggZZ: 120-130 GeV Error 0.0049798885651
+ qqZZ-amcnlo: weighted events 119.181836892
+ qqZZ-amcnlo: weighted events Error 1.43381069792
+ qqZZ-amcnlo: 80-100 GeV 36.0543487108
+ qqZZ-amcnlo: 80-100 GeV Error 0.786306546479
+ qqZZ-amcnlo: 120-130 GeV 2.18646376499
+ qqZZ-amcnlo: 120-130 GeV Error 0.205352072871
+ HZZ-signal: weighted events 6.66972956849
+ HZZ-signal: weighted events Error 0.0515941298263
+ HZZ-signal: 80-100 GeV 0.059612752984
+ HZZ-signal: 80-100 GeV Error 0.00499410426259
+ HZZ-signal: 120-130 GeV 5.89073749297
+ HZZ-signal: 120-130 GeV Error 0.0493211563436
+ signalSum: weighted events 143.813858735
+ signalSum: weighted events Error 1.43543552236
+ signalSum: 80-100 GeV 36.2968304583
+ signalSum: 80-100 GeV Error 0.78633580542
+ signalSum: 120-130 GeV 8.25122098637
+ signalSum: 120-130 GeV Error 0.211250767011
+ totexp: weighted events 150.121802195
+ totexp: weighted events Error 1.73580945021
+ totexp: 80-100 GeV 36.9049035936
+ totexp: 80-100 GeV Error 0.856165926809
+ totexp: 120-130 GeV 8.77037815318
+ totexp: 120-130 GeV Error 0.38168865269
+Number of events in data: 156
+
+data events 80-100 GeV: 39
+
+data events 120-130 GeV: 10
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass1jFull
+Channels: eemm,mmee
+
+ nonprompt: weighted events 9.58712339049
+ nonprompt: weighted events Error 1.14014964178
+ nonprompt: 80-100 GeV 1.40260331778
+ nonprompt: 80-100 GeV Error 0.396320616738
+ nonprompt: 120-130 GeV 0.888016730398
+ nonprompt: 120-130 GeV Error 0.36934868877
+ VVV: weighted events 1.8543434025
+ VVV: weighted events Error 0.141056610793
+ VVV: 80-100 GeV 0.00427696406494
+ VVV: 80-100 GeV Error 0.00193566599827
+ VVV: 120-130 GeV 0.0344875606368
+ VVV: 120-130 GeV Error 0.023989347282
+ zzjj4l-ewk: weighted events 0.403763398408
+ zzjj4l-ewk: weighted events Error 0.00183288288658
+ zzjj4l-ewk: 80-100 GeV 5.38657469488e-05
+ zzjj4l-ewk: 80-100 GeV Error 2.05970448079e-05
+ zzjj4l-ewk: 120-130 GeV 0.00635263817468
+ zzjj4l-ewk: 120-130 GeV Error 0.000230310895114
+ ggZZ: weighted events 27.1498619453
+ ggZZ: weighted events Error 0.0622471401487
+ ggZZ: 80-100 GeV 0.0708612573131
+ ggZZ: 80-100 GeV Error 0.00324657166494
+ ggZZ: 120-130 GeV 0.175964372913
+ ggZZ: 120-130 GeV Error 0.00569173020605
+ qqZZ-amcnlo: weighted events 174.573682045
+ qqZZ-amcnlo: weighted events Error 1.55885582384
+ qqZZ-amcnlo: 80-100 GeV 40.5146195664
+ qqZZ-amcnlo: 80-100 GeV Error 0.713708887977
+ qqZZ-amcnlo: 120-130 GeV 3.50062375454
+ qqZZ-amcnlo: 120-130 GeV Error 0.218103482393
+ HZZ-signal: weighted events 8.34092082887
+ HZZ-signal: weighted events Error 0.0559329200115
+ HZZ-signal: 80-100 GeV 0.103144872004
+ HZZ-signal: 80-100 GeV Error 0.00645985870712
+ HZZ-signal: 120-130 GeV 6.84750871034
+ HZZ-signal: 120-130 GeV Error 0.0516793935699
+ signalSum: weighted events 210.468228217
+ signalSum: weighted events Error 1.56110154601
+ signalSum: 80-100 GeV 40.6886795615
+ signalSum: 80-100 GeV Error 0.713745505908
+ signalSum: 120-130 GeV 10.530449476
+ signalSum: 120-130 GeV Error 0.224214936139
+ totexp: weighted events 221.90969501
+ totexp: weighted events Error 1.93826628977
+ totexp: 80-100 GeV 42.0955598433
+ totexp: 80-100 GeV Error 0.816398447609
+ totexp: 120-130 GeV 11.452953767
+ totexp: 120-130 GeV Error 0.432742741437
+Number of events in data: 169
+
+data events 80-100 GeV: 29
+
+data events 120-130 GeV: 13
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass2jFull
+Channels: eeee,eemm,mmee,mmmm
+
+ nonprompt: weighted events 10.8840903418
+ nonprompt: weighted events Error 1.18074632889
+ nonprompt: 80-100 GeV 1.21350706847
+ nonprompt: 80-100 GeV Error 0.371190846544
+ nonprompt: 120-130 GeV 0.486595208038
+ nonprompt: 120-130 GeV Error 0.273476719131
+ VVV: weighted events 4.15866102057
+ VVV: weighted events Error 0.17177294089
+ VVV: 80-100 GeV 0.014457807217
+ VVV: 80-100 GeV Error 0.00356683419287
+ VVV: 120-130 GeV 0.0333608607038
+ VVV: 120-130 GeV Error 0.0054730689797
+ zzjj4l-ewk: weighted events 3.53670651956
+ zzjj4l-ewk: weighted events Error 0.00537196934479
+ zzjj4l-ewk: 80-100 GeV 0.000248279415408
+ zzjj4l-ewk: 80-100 GeV Error 4.5855415442e-05
+ zzjj4l-ewk: 120-130 GeV 0.0214863193574
+ zzjj4l-ewk: 120-130 GeV Error 0.000422438272327
+ ggZZ: weighted events 16.8290177391
+ ggZZ: weighted events Error 0.0456983674253
+ ggZZ: 80-100 GeV 0.0280833280748
+ ggZZ: 80-100 GeV Error 0.00192975564315
+ ggZZ: 120-130 GeV 0.0715773182844
+ ggZZ: 120-130 GeV Error 0.00364305674359
+ qqZZ-amcnlo: weighted events 113.962483637
+ qqZZ-amcnlo: weighted events Error 1.28438033863
+ qqZZ-amcnlo: 80-100 GeV 25.422227969
+ qqZZ-amcnlo: 80-100 GeV Error 0.581152709621
+ qqZZ-amcnlo: 120-130 GeV 1.95736947425
+ qqZZ-amcnlo: 120-130 GeV Error 0.161132478214
+ HZZ-signal: weighted events 8.3810272899
+ HZZ-signal: weighted events Error 0.0492265996864
+ HZZ-signal: 80-100 GeV 0.0976077662728
+ HZZ-signal: 80-100 GeV Error 0.00536533644126
+ HZZ-signal: 120-130 GeV 6.87125088838
+ HZZ-signal: 120-130 GeV Error 0.0457717365016
+ signalSum: weighted events 142.709235185
+ signalSum: weighted events Error 1.28614669117
+ signalSum: 80-100 GeV 25.5481673427
+ signalSum: 80-100 GeV Error 0.581180681712
+ signalSum: 120-130 GeV 8.92168400027
+ signalSum: 120-130 GeV Error 0.16754753867
+ totexp: weighted events 157.751986548
+ totexp: weighted events Error 1.75437770951
+ totexp: 80-100 GeV 26.7761322184
+ totexp: 80-100 GeV Error 0.689613189882
+ totexp: 120-130 GeV 9.44164006901
+ totexp: 120-130 GeV Error 0.320767280291
+Number of events in data: 156
+
+data events 80-100 GeV: 26
+
+data events 120-130 GeV: 9
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass2jFull
+Channels: eeee
+
+ nonprompt: weighted events 2.66486452052
+ nonprompt: weighted events Error 0.429119494308
+ nonprompt: 80-100 GeV 0.232826420988
+ nonprompt: 80-100 GeV Error 0.116219848082
+ nonprompt: 120-130 GeV 0.15947069693
+ nonprompt: 120-130 GeV Error 0.0885357183676
+ VVV: weighted events 0.998185521158
+ VVV: weighted events Error 0.0893712941263
+ VVV: 80-100 GeV 0.00403649171735
+ VVV: 80-100 GeV Error 0.00181142721357
+ VVV: 120-130 GeV 0.00559359601537
+ VVV: 120-130 GeV Error 0.0023287573867
+ zzjj4l-ewk: weighted events 0.690800631489
+ zzjj4l-ewk: weighted events Error 0.00229626669281
+ zzjj4l-ewk: 80-100 GeV 9.13182441963e-05
+ zzjj4l-ewk: 80-100 GeV Error 2.66244605021e-05
+ zzjj4l-ewk: 120-130 GeV 0.00380942039389
+ zzjj4l-ewk: 120-130 GeV Error 0.000172342727338
+ ggZZ: weighted events 3.27330073333
+ ggZZ: weighted events Error 0.0182168389672
+ ggZZ: 80-100 GeV 0.00561634202417
+ ggZZ: 80-100 GeV Error 0.000819495897893
+ ggZZ: 120-130 GeV 0.0136762638217
+ ggZZ: 120-130 GeV Error 0.0015069996831
+ qqZZ-amcnlo: weighted events 18.6286663351
+ qqZZ-amcnlo: weighted events Error 0.531337450128
+ qqZZ-amcnlo: 80-100 GeV 3.44888392969
+ qqZZ-amcnlo: 80-100 GeV Error 0.216923967176
+ qqZZ-amcnlo: 120-130 GeV 0.258320318287
+ qqZZ-amcnlo: 120-130 GeV Error 0.0600268021156
+ HZZ-signal: weighted events 1.57448029756
+ HZZ-signal: weighted events Error 0.0205699287541
+ HZZ-signal: 80-100 GeV 0.0286855480331
+ HZZ-signal: 80-100 GeV Error 0.00304765886068
+ HZZ-signal: 120-130 GeV 1.1724163666
+ HZZ-signal: 120-130 GeV Error 0.0181453271558
+ signalSum: weighted events 24.1672479975
+ signalSum: weighted events Error 0.532052378944
+ signalSum: 80-100 GeV 3.483277138
+ signalSum: 80-100 GeV Error 0.216946924482
+ signalSum: 120-130 GeV 1.44822236911
+ signalSum: 120-130 GeV Error 0.0627277499985
+ totexp: weighted events 27.8302980391
+ totexp: weighted events Error 0.689355135289
+ totexp: 80-100 GeV 3.7201400507
+ totexp: 80-100 GeV Error 0.246122535334
+ totexp: 120-130 GeV 1.61328666205
+ totexp: 120-130 GeV Error 0.108530028829
+Number of events in data: 30
+
+data events 80-100 GeV: 5
+
+data events 120-130 GeV: 2
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass2jFull
+Channels: mmmm
+
+ nonprompt: weighted events 3.13945539961
+ nonprompt: weighted events Error 0.732363535927
+ nonprompt: 80-100 GeV 0.365570004697
+ nonprompt: 80-100 GeV Error 0.250900132923
+ nonprompt: 120-130 GeV 0.239975826659
+ nonprompt: 120-130 GeV Error 0.214066651183
+ VVV: weighted events 1.29942499675
+ VVV: weighted events Error 0.0959349015846
+ VVV: 80-100 GeV 0.00630798774513
+ VVV: 80-100 GeV Error 0.00247088635576
+ VVV: 120-130 GeV 0.0120415807111
+ VVV: 120-130 GeV Error 0.00330168425526
+ zzjj4l-ewk: weighted events 1.10486748103
+ zzjj4l-ewk: weighted events Error 0.00308090731848
+ zzjj4l-ewk: 80-100 GeV 6.9297156575e-05
+ zzjj4l-ewk: 80-100 GeV Error 2.45803251052e-05
+ zzjj4l-ewk: 120-130 GeV 0.00722752367486
+ zzjj4l-ewk: 120-130 GeV Error 0.000250661494568
+ ggZZ: weighted events 5.29765874016
+ ggZZ: weighted events Error 0.0243442066343
+ ggZZ: 80-100 GeV 0.0163283260904
+ ggZZ: 80-100 GeV Error 0.00142505311614
+ ggZZ: 120-130 GeV 0.0292611915546
+ ggZZ: 120-130 GeV Error 0.00238303135303
+ qqZZ-amcnlo: weighted events 38.3198782437
+ qqZZ-amcnlo: weighted events Error 0.784853222776
+ qqZZ-amcnlo: 80-100 GeV 10.6730886419
+ qqZZ-amcnlo: 80-100 GeV Error 0.395557146063
+ qqZZ-amcnlo: 120-130 GeV 0.862534056924
+ qqZZ-amcnlo: 120-130 GeV Error 0.105716324972
+ HZZ-signal: weighted events 2.96222416768
+ HZZ-signal: weighted events Error 0.0300376133998
+ HZZ-signal: 80-100 GeV 0.0270778641969
+ HZZ-signal: 80-100 GeV Error 0.00290905726972
+ HZZ-signal: 120-130 GeV 2.56986527428
+ HZZ-signal: 120-130 GeV Error 0.0286631809869
+ signalSum: weighted events 47.6846286326
+ signalSum: weighted events Error 0.785811028115
+ signalSum: 80-100 GeV 10.7165641294
+ signalSum: 80-100 GeV Error 0.395570410668
+ signalSum: 120-130 GeV 3.46888804643
+ signalSum: 120-130 GeV Error 0.109559394757
+ totexp: weighted events 52.123509029
+ totexp: weighted events Error 1.07845205086
+ totexp: 80-100 GeV 11.0884421218
+ totexp: 80-100 GeV Error 0.468436689187
+ totexp: 120-130 GeV 3.7209054538
+ totexp: 120-130 GeV Error 0.240496763486
+Number of events in data: 46
+
+data events 80-100 GeV: 11
+
+data events 120-130 GeV: 2
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass2jFull
+Channels: eemm,mmee
+
+ nonprompt: weighted events 5.16240069019
+ nonprompt: weighted events Error 0.820769153926
+ nonprompt: 80-100 GeV 0.615110642786
+ nonprompt: 80-100 GeV Error 0.247638274038
+ nonprompt: 120-130 GeV 0.0871486844496
+ nonprompt: 120-130 GeV Error 0.145349273583
+ VVV: weighted events 1.86105050266
+ VVV: weighted events Error 0.110973914349
+ VVV: 80-100 GeV 0.00411332775457
+ VVV: 80-100 GeV Error 0.0018264058219
+ VVV: 120-130 GeV 0.0157256839773
+ VVV: 120-130 GeV Error 0.00369191741091
+ zzjj4l-ewk: weighted events 1.74103840704
+ zzjj4l-ewk: weighted events Error 0.0037540942998
+ zzjj4l-ewk: 80-100 GeV 8.76640146364e-05
+ zzjj4l-ewk: 80-100 GeV Error 2.81009758915e-05
+ zzjj4l-ewk: 120-130 GeV 0.0104493752886
+ zzjj4l-ewk: 120-130 GeV Error 0.00029312265931
+ ggZZ: weighted events 8.2580582656
+ ggZZ: weighted events Error 0.0341152043336
+ ggZZ: 80-100 GeV 0.00613865996028
+ ggZZ: 80-100 GeV Error 0.00101074573052
+ ggZZ: 120-130 GeV 0.0286398629081
+ ggZZ: 120-130 GeV Error 0.00230694082338
+ qqZZ-amcnlo: weighted events 57.0139390578
+ qqZZ-amcnlo: weighted events Error 0.866786471428
+ qqZZ-amcnlo: 80-100 GeV 11.3002553974
+ qqZZ-amcnlo: 80-100 GeV Error 0.366356395554
+ qqZZ-amcnlo: 120-130 GeV 0.836515099041
+ qqZZ-amcnlo: 120-130 GeV Error 0.105756877779
+ HZZ-signal: weighted events 3.84432282465
+ HZZ-signal: weighted events Error 0.0331342410352
+ HZZ-signal: 80-100 GeV 0.0418443540428
+ HZZ-signal: 80-100 GeV Error 0.00332204701927
+ HZZ-signal: 120-130 GeV 3.12896924749
+ HZZ-signal: 120-130 GeV Error 0.0307281795831
+ signalSum: weighted events 70.8573585551
+ signalSum: weighted events Error 0.86809826942
+ signalSum: 80-100 GeV 11.3483260754
+ signalSum: 80-100 GeV Error 0.366372852374
+ signalSum: 120-130 GeV 4.00457358473
+ signalSum: 120-130 GeV Error 0.110155100268
+ totexp: weighted events 77.880809748
+ totexp: weighted events Error 1.19982157802
+ totexp: 80-100 GeV 11.9675500459
+ totexp: 80-100 GeV Error 0.442218404732
+ totexp: 120-130 GeV 4.10744795316
+ totexp: 120-130 GeV Error 0.182412136933
+Number of events in data: 80
+
+data events 80-100 GeV: 10
+
+data events 120-130 GeV: 5
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass3jFull
+Channels: eeee,eemm,mmee,mmmm
+
+ nonprompt: weighted events 5.42585536908
+ nonprompt: weighted events Error 0.815353154675
+ nonprompt: 80-100 GeV 0.318634536869
+ nonprompt: 80-100 GeV Error 0.192631195718
+ nonprompt: 120-130 GeV 0.37692147719
+ nonprompt: 120-130 GeV Error 0.226357136337
+ VVV: weighted events 2.58950221819
+ VVV: weighted events Error 0.127976871499
+ VVV: 80-100 GeV 0.00837575642923
+ VVV: 80-100 GeV Error 0.00259789118173
+ VVV: 120-130 GeV 0.0366744122581
+ VVV: 120-130 GeV Error 0.0103963555233
+ zzjj4l-ewk: weighted events 1.85419051413
+ zzjj4l-ewk: weighted events Error 0.00385940481848
+ zzjj4l-ewk: 80-100 GeV 0.000131570554478
+ zzjj4l-ewk: 80-100 GeV Error 3.34821786294e-05
+ zzjj4l-ewk: 120-130 GeV 0.00739365457277
+ zzjj4l-ewk: 120-130 GeV Error 0.000244668320708
+ ggZZ: weighted events 3.65925645269
+ ggZZ: weighted events Error 0.0212161097312
+ ggZZ: 80-100 GeV 0.00445358002996
+ ggZZ: 80-100 GeV Error 0.000929712289994
+ ggZZ: 120-130 GeV 0.0115686432643
+ ggZZ: 120-130 GeV Error 0.00153478181932
+ qqZZ-amcnlo: weighted events 28.670438177
+ qqZZ-amcnlo: weighted events Error 0.623971844069
+ qqZZ-amcnlo: 80-100 GeV 5.68525354158
+ qqZZ-amcnlo: 80-100 GeV Error 0.267273704905
+ qqZZ-amcnlo: 120-130 GeV 0.254640461679
+ qqZZ-amcnlo: 120-130 GeV Error 0.0672321164675
+ HZZ-signal: weighted events 2.53639626644
+ HZZ-signal: weighted events Error 0.0267289897705
+ HZZ-signal: 80-100 GeV 0.0324975733722
+ HZZ-signal: 80-100 GeV Error 0.00295151389861
+ HZZ-signal: 120-130 GeV 1.99703197387
+ HZZ-signal: 120-130 GeV Error 0.0249627405889
+ signalSum: weighted events 36.7202814103
+ signalSum: weighted events Error 0.624916249911
+ signalSum: 80-100 GeV 5.72233626553
+ signalSum: 80-100 GeV Error 0.267291620246
+ signalSum: 120-130 GeV 2.27063473339
+ signalSum: 120-130 GeV Error 0.0717336136008
+ totexp: weighted events 44.7356389975
+ totexp: weighted events Error 1.0352290403
+ totexp: 80-100 GeV 6.04934655883
+ totexp: 80-100 GeV Error 0.329481921896
+ totexp: 120-130 GeV 2.68423062284
+ totexp: 120-130 GeV Error 0.237679087636
+Number of events in data: 47
+
+data events 80-100 GeV: 6
+
+data events 120-130 GeV: 2
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass3jFull
+Channels: eeee
+
+ nonprompt: weighted events 1.63966533123
+ nonprompt: weighted events Error 0.342607185306
+ nonprompt: 80-100 GeV 0.0417840020799
+ nonprompt: 80-100 GeV Error 0.0429296787281
+ nonprompt: 120-130 GeV 0.115700848127
+ nonprompt: 120-130 GeV Error 0.0642572762338
+ VVV: weighted events 0.565132763984
+ VVV: weighted events Error 0.0485007219075
+ VVV: 80-100 GeV 0.00187874074021
+ VVV: 80-100 GeV Error 0.00116727881572
+ VVV: 120-130 GeV 0.0139033238805
+ VVV: 120-130 GeV Error 0.00941856361886
+ zzjj4l-ewk: weighted events 0.358598343755
+ zzjj4l-ewk: weighted events Error 0.00164094159879
+ zzjj4l-ewk: 80-100 GeV 4.28119656097e-05
+ zzjj4l-ewk: 80-100 GeV Error 1.96438090078e-05
+ zzjj4l-ewk: 120-130 GeV 0.00123411228027
+ zzjj4l-ewk: 120-130 GeV Error 9.73341370911e-05
+ ggZZ: weighted events 0.691660318981
+ ggZZ: weighted events Error 0.00831721872404
+ ggZZ: 80-100 GeV 0.00126020880562
+ ggZZ: 80-100 GeV Error 0.000486377572864
+ ggZZ: 120-130 GeV 0.00229796796794
+ ggZZ: 120-130 GeV Error 0.000618327890139
+ qqZZ-amcnlo: weighted events 5.50099116518
+ qqZZ-amcnlo: weighted events Error 0.265324041277
+ qqZZ-amcnlo: 80-100 GeV 0.70541076902
+ qqZZ-amcnlo: 80-100 GeV Error 0.107628831654
+ qqZZ-amcnlo: 120-130 GeV 0.0357742170629
+ qqZZ-amcnlo: 120-130 GeV Error 0.0222205248381
+ HZZ-signal: weighted events 0.477999349828
+ HZZ-signal: weighted events Error 0.0111158945061
+ HZZ-signal: 80-100 GeV 0.00590500609352
+ HZZ-signal: 80-100 GeV Error 0.00114438765698
+ HZZ-signal: 120-130 GeV 0.346618013078
+ HZZ-signal: 120-130 GeV Error 0.0100034819843
+ signalSum: weighted events 7.02924917774
+ signalSum: weighted events Error 0.265692075168
+ signalSum: 80-100 GeV 0.712618795885
+ signalSum: 80-100 GeV Error 0.107636016163
+ signalSum: 120-130 GeV 0.385924310389
+ signalSum: 120-130 GeV Error 0.024376488246
+ totexp: weighted events 9.23404727295
+ totexp: weighted events Error 0.43626171303
+ totexp: 80-100 GeV 0.756281538705
+ totexp: 80-100 GeV Error 0.115887151276
+ totexp: 120-130 GeV 0.515528482396
+ totexp: 120-130 GeV Error 0.0693680046479
+Number of events in data: 5
+
+data events 80-100 GeV: 0
+
+data events 120-130 GeV: 0
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass3jFull
+Channels: mmmm
+
+ nonprompt: weighted events 0.842190995671
+ nonprompt: weighted events Error 0.424386544431
+ nonprompt: 80-100 GeV 0.0159696558473
+ nonprompt: 80-100 GeV Error 0.0778146421928
+ nonprompt: 120-130 GeV 0.0654866485277
+ nonprompt: 120-130 GeV Error 0.136615433617
+ VVV: weighted events 0.692172354526
+ VVV: weighted events Error 0.0700942574697
+ VVV: 80-100 GeV 0.00293866211946
+ VVV: 80-100 GeV Error 0.00162612607031
+ VVV: 120-130 GeV 0.00657204089485
+ VVV: 120-130 GeV Error 0.00240524891745
+ zzjj4l-ewk: weighted events 0.579198587431
+ zzjj4l-ewk: weighted events Error 0.00221291441915
+ zzjj4l-ewk: 80-100 GeV 3.14174173765e-05
+ zzjj4l-ewk: 80-100 GeV Error 1.60560412476e-05
+ zzjj4l-ewk: 120-130 GeV 0.00226883922187
+ zzjj4l-ewk: 120-130 GeV Error 0.000138761191559
+ ggZZ: weighted events 1.13842309768
+ ggZZ: weighted events Error 0.0111653980201
+ ggZZ: 80-100 GeV 0.00181998915723
+ ggZZ: 80-100 GeV Error 0.00055911024543
+ ggZZ: 120-130 GeV 0.00283226321511
+ ggZZ: 120-130 GeV Error 0.000735229774951
+ qqZZ-amcnlo: weighted events 9.16654032056
+ qqZZ-amcnlo: weighted events Error 0.379326849971
+ qqZZ-amcnlo: 80-100 GeV 2.18890099337
+ qqZZ-amcnlo: 80-100 GeV Error 0.177006409383
+ qqZZ-amcnlo: 120-130 GeV 0.0738134288803
+ qqZZ-amcnlo: 120-130 GeV Error 0.0460123612851
+ HZZ-signal: weighted events 0.884729251157
+ HZZ-signal: weighted events Error 0.0162580384807
+ HZZ-signal: 80-100 GeV 0.0127269568582
+ HZZ-signal: 80-100 GeV Error 0.00199945216839
+ HZZ-signal: 120-130 GeV 0.735567185862
+ HZZ-signal: 120-130 GeV Error 0.0155074202109
+ signalSum: weighted events 11.7688912568
+ signalSum: weighted events Error 0.379845687125
+ signalSum: 80-100 GeV 2.20347935681
+ signalSum: 80-100 GeV Error 0.17701858556
+ signalSum: 120-130 GeV 0.814481717179
+ signalSum: 120-130 GeV Error 0.0485610676377
+ totexp: weighted events 13.303254607
+ totexp: weighted events Error 0.573846573617
+ totexp: 80-100 GeV 2.22238767477
+ totexp: 80-100 GeV Error 0.193373582631
+ totexp: 120-130 GeV 0.886540406601
+ totexp: 120-130 GeV Error 0.145009445261
+Number of events in data: 14
+
+data events 80-100 GeV: 2
+
+data events 120-130 GeV: 0
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass3jFull
+Channels: eemm,mmee
+
+ nonprompt: weighted events 2.95535064505
+ nonprompt: weighted events Error 0.606066947062
+ nonprompt: 80-100 GeV 0.260880878942
+ nonprompt: 80-100 GeV Error 0.170905534459
+ nonprompt: 120-130 GeV 0.195733980536
+ nonprompt: 120-130 GeV Error 0.168655800136
+ VVV: weighted events 1.33219709968
+ VVV: weighted events Error 0.0954597018787
+ VVV: 80-100 GeV 0.00355835356956
+ VVV: 80-100 GeV Error 0.00165596279002
+ VVV: 120-130 GeV 0.0161990474827
+ VVV: 120-130 GeV Error 0.00368641359167
+ zzjj4l-ewk: weighted events 0.916393582941
+ zzjj4l-ewk: weighted events Error 0.00270283665725
+ zzjj4l-ewk: 80-100 GeV 5.7341171492e-05
+ zzjj4l-ewk: 80-100 GeV Error 2.18490410062e-05
+ zzjj4l-ewk: 120-130 GeV 0.00389070307062
+ zzjj4l-ewk: 120-130 GeV Error 0.000176448249161
+ ggZZ: weighted events 1.82917303603
+ ggZZ: weighted events Error 0.0160087810866
+ ggZZ: 80-100 GeV 0.00137338206712
+ ggZZ: 80-100 GeV Error 0.000561424556139
+ ggZZ: 120-130 GeV 0.00643841208128
+ ggZZ: 120-130 GeV Error 0.00119693902569
+ qqZZ-amcnlo: weighted events 14.0029066913
+ qqZZ-amcnlo: weighted events Error 0.418395932344
+ qqZZ-amcnlo: 80-100 GeV 2.79094177918
+ qqZZ-amcnlo: 80-100 GeV Error 0.168878651604
+ qqZZ-amcnlo: 120-130 GeV 0.145052815736
+ qqZZ-amcnlo: 120-130 GeV Error 0.0436951755871
+ HZZ-signal: weighted events 1.17366766545
+ HZZ-signal: weighted events Error 0.0180707489674
+ HZZ-signal: 80-100 GeV 0.0138656104204
+ HZZ-signal: 80-100 GeV Error 0.00184499382399
+ HZZ-signal: 120-130 GeV 0.914846774935
+ HZZ-signal: 120-130 GeV Error 0.0168103743058
+ signalSum: weighted events 17.9221409757
+ signalSum: weighted events Error 0.419100578105
+ signalSum: 80-100 GeV 2.80623811284
+ signalSum: 80-100 GeV Error 0.168889664114
+ signalSum: 120-130 GeV 1.07022870582
+ signalSum: 120-130 GeV Error 0.0468329035071
+ totexp: weighted events 22.2096887204
+ totexp: weighted events Error 0.743017492103
+ totexp: 80-100 GeV 3.07067734535
+ totexp: 80-100 GeV Error 0.24028142368
+ totexp: 120-130 GeV 1.28216173384
+ totexp: 120-130 GeV Error 0.175076238866
+Number of events in data: 28
+
+data events 80-100 GeV: 4
+
+data events 120-130 GeV: 2
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass4jFull
+Channels: eeee,eemm,mmee,mmmm
+
+ nonprompt: weighted events 3.33549905843
+ nonprompt: weighted events Error 0.601587451079
+ nonprompt: 80-100 GeV 0.153882780076
+ nonprompt: 80-100 GeV Error 0.124945601422
+ nonprompt: 120-130 GeV 0.181074602705
+ nonprompt: 120-130 GeV Error 0.139754871183
+ VVV: weighted events 2.02675649065
+ VVV: weighted events Error 0.0910168165603
+ VVV: 80-100 GeV 0.00691294570789
+ VVV: 80-100 GeV Error 0.00244668088264
+ VVV: 120-130 GeV 0.015489689257
+ VVV: 120-130 GeV Error 0.00353685750422
+ zzjj4l-ewk: weighted events 0.851655994588
+ zzjj4l-ewk: weighted events Error 0.00259289317106
+ zzjj4l-ewk: 80-100 GeV 3.85761280723e-05
+ zzjj4l-ewk: 80-100 GeV Error 1.71121742497e-05
+ zzjj4l-ewk: 120-130 GeV 0.00242516041681
+ zzjj4l-ewk: 120-130 GeV Error 0.000139964889002
+ ggZZ: weighted events 0.840568548135
+ ggZZ: weighted events Error 0.0101923112251
+ ggZZ: 80-100 GeV 0.000809927296725
+ ggZZ: 80-100 GeV Error 0.000450986038799
+ ggZZ: 120-130 GeV 0.00148955714893
+ ggZZ: 120-130 GeV Error 0.00068215569284
+ qqZZ-amcnlo: weighted events 9.28417262704
+ qqZZ-amcnlo: weighted events Error 0.33755460778
+ qqZZ-amcnlo: 80-100 GeV 1.58080026458
+ qqZZ-amcnlo: 80-100 GeV Error 0.132067146806
+ qqZZ-amcnlo: 120-130 GeV 0.121155654071
+ qqZZ-amcnlo: 120-130 GeV Error 0.0347347368367
+ HZZ-signal: weighted events 1.43178660154
+ HZZ-signal: weighted events Error 0.0166832726865
+ HZZ-signal: 80-100 GeV 0.0195524311405
+ HZZ-signal: 80-100 GeV Error 0.00174729574026
+ HZZ-signal: 120-130 GeV 1.04261171744
+ HZZ-signal: 120-130 GeV Error 0.0154259122248
+ signalSum: weighted events 12.4081837713
+ signalSum: weighted events Error 0.338130228054
+ signalSum: 80-100 GeV 1.60120119915
+ signalSum: 80-100 GeV Error 0.132079476033
+ signalSum: 120-130 GeV 1.16768208908
+ signalSum: 120-130 GeV Error 0.0380124405641
+ totexp: weighted events 17.7704393204
+ totexp: weighted events Error 0.696077275391
+ totexp: 80-100 GeV 1.76199692493
+ totexp: 80-100 GeV Error 0.181830628748
+ totexp: 120-130 GeV 1.36424638104
+ totexp: 120-130 GeV Error 0.144875391347
+Number of events in data: 25
+
+data events 80-100 GeV: 3
+
+data events 120-130 GeV: 0
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass4jFull
+Channels: eeee
+
+ nonprompt: weighted events 1.34319136431
+ nonprompt: weighted events Error 0.276633354735
+ nonprompt: 80-100 GeV 0.123932667388
+ nonprompt: 80-100 GeV Error 0.0777219452274
+ nonprompt: 120-130 GeV 0.166923442466
+ nonprompt: 120-130 GeV Error 0.0940338196308
+ VVV: weighted events 0.380782387144
+ VVV: weighted events Error 0.0394066788042
+ VVV: 80-100 GeV 0.00169329566263
+ VVV: 80-100 GeV Error 0.00119771056798
+ VVV: 120-130 GeV 0.00468950281704
+ VVV: 120-130 GeV Error 0.00191686700347
+ zzjj4l-ewk: weighted events 0.164687003797
+ zzjj4l-ewk: weighted events Error 0.00110268510758
+ zzjj4l-ewk: 80-100 GeV 0.0
+ zzjj4l-ewk: 80-100 GeV Error 0.0
+ zzjj4l-ewk: 120-130 GeV 0.000391444267919
+ zzjj4l-ewk: 120-130 GeV Error 5.37116382802e-05
+ ggZZ: weighted events 0.155954959399
+ ggZZ: weighted events Error 0.00387875483667
+ ggZZ: 80-100 GeV 9.94743177297e-05
+ ggZZ: 80-100 GeV Error 9.94743177297e-05
+ ggZZ: 120-130 GeV 7.64778930498e-05
+ ggZZ: 120-130 GeV Error 7.64778930498e-05
+ qqZZ-amcnlo: weighted events 1.7414598337
+ qqZZ-amcnlo: weighted events Error 0.141258047915
+ qqZZ-amcnlo: 80-100 GeV 0.334118387698
+ qqZZ-amcnlo: 80-100 GeV Error 0.053316754455
+ qqZZ-amcnlo: 120-130 GeV 0.0143191451452
+ qqZZ-amcnlo: 120-130 GeV Error 0.0164049609117
+ HZZ-signal: weighted events 0.286594528633
+ HZZ-signal: weighted events Error 0.00721114667107
+ HZZ-signal: 80-100 GeV 0.00421339963518
+ HZZ-signal: 80-100 GeV Error 0.00080246468612
+ HZZ-signal: 120-130 GeV 0.192241068645
+ HZZ-signal: 120-130 GeV Error 0.00643098649164
+ signalSum: weighted events 2.34869632553
+ signalSum: weighted events Error 0.141499460743
+ signalSum: 80-100 GeV 0.338431261651
+ signalSum: 80-100 GeV Error 0.0533228858027
+ signalSum: 120-130 GeV 0.207028135951
+ signalSum: 120-130 GeV Error 0.0176206998607
+ totexp: weighted events 4.07267007698
+ totexp: weighted events Error 0.313210786335
+ totexp: 80-100 GeV 0.464057224701
+ totexp: 80-100 GeV Error 0.0942627467819
+ totexp: 120-130 GeV 0.378641081234
+ totexp: 120-130 GeV Error 0.0956897208536
+Number of events in data: 2
+
+data events 80-100 GeV: 0
+
+data events 120-130 GeV: 0
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass4jFull
+Channels: mmmm
+
+ nonprompt: weighted events 0.869759299695
+ nonprompt: weighted events Error 0.350512424334
+ nonprompt: 80-100 GeV 0.001
+ nonprompt: 80-100 GeV Error 0.0161730431561
+ nonprompt: 120-130 GeV 0.001
+ nonprompt: 120-130 GeV Error 0.0206323273281
+ VVV: weighted events 0.650204561243
+ VVV: weighted events Error 0.0535172588214
+ VVV: 80-100 GeV 0.0
+ VVV: 80-100 GeV Error 0.0
+ VVV: 120-130 GeV 0.00491703674899
+ VVV: 120-130 GeV Error 0.00202114213042
+ zzjj4l-ewk: weighted events 0.26853417447
+ zzjj4l-ewk: weighted events Error 0.001493420482
+ zzjj4l-ewk: 80-100 GeV 3.7177982554e-07
+ zzjj4l-ewk: 80-100 GeV Error 3.7177982554e-07
+ zzjj4l-ewk: 120-130 GeV 0.00078253660355
+ zzjj4l-ewk: 120-130 GeV Error 8.18619561318e-05
+ ggZZ: weighted events 0.252536763245
+ ggZZ: weighted events Error 0.00531821896112
+ ggZZ: 80-100 GeV 0.000308250908544
+ ggZZ: 80-100 GeV Error 0.000178120076993
+ ggZZ: 120-130 GeV 0.000995852039669
+ ggZZ: 120-130 GeV Error 0.000534236811914
+ qqZZ-amcnlo: weighted events 3.04342759699
+ qqZZ-amcnlo: weighted events Error 0.205967210593
+ qqZZ-amcnlo: 80-100 GeV 0.615711939466
+ qqZZ-amcnlo: 80-100 GeV Error 0.0891515314538
+ qqZZ-amcnlo: 120-130 GeV 0.0496107143266
+ qqZZ-amcnlo: 120-130 GeV Error 0.0208586802882
+ HZZ-signal: weighted events 0.473519115251
+ HZZ-signal: weighted events Error 0.0097003794244
+ HZZ-signal: 80-100 GeV 0.00653789540968
+ HZZ-signal: 80-100 GeV Error 0.000924193958777
+ HZZ-signal: 120-130 GeV 0.361529231284
+ HZZ-signal: 120-130 GeV Error 0.00914490494076
+ signalSum: weighted events 4.03801764996
+ signalSum: weighted events Error 0.206269491099
+ signalSum: 80-100 GeV 0.622558457564
+ signalSum: 80-100 GeV Error 0.0891564996057
+ signalSum: 120-130 GeV 0.412918334254
+ signalSum: 120-130 GeV Error 0.02278170187
+ totexp: weighted events 5.5579815109
+ totexp: weighted events Error 0.410207459175
+ totexp: 80-100 GeV 0.623558457564
+ totexp: 80-100 GeV Error 0.0906115265673
+ totexp: 120-130 GeV 0.418835371003
+ totexp: 120-130 GeV Error 0.0308023357325
+Number of events in data: 12
+
+data events 80-100 GeV: 2
+
+data events 120-130 GeV: 0
+
+Luminosity: 36.31 fb^{-1}
+Plotting branch: Mass4jFull
+Channels: eemm,mmee
+
+ nonprompt: weighted events 1.27454609498
+ nonprompt: weighted events Error 0.403140780287
+ nonprompt: 80-100 GeV 0.08922864498
+ nonprompt: 80-100 GeV Error 0.0964838598924
+ nonprompt: 120-130 GeV 0.0900423221749
+ nonprompt: 120-130 GeV Error 0.101308301013
+ VVV: weighted events 0.99576954226
+ VVV: weighted events Error 0.0621858309474
+ VVV: 80-100 GeV 0.00521965004526
+ VVV: 80-100 GeV Error 0.00213347995932
+ VVV: 120-130 GeV 0.00588314969102
+ VVV: 120-130 GeV Error 0.0021794417599
+ zzjj4l-ewk: weighted events 0.418434816321
+ zzjj4l-ewk: weighted events Error 0.00181021430057
+ zzjj4l-ewk: 80-100 GeV 3.82043482467e-05
+ zzjj4l-ewk: 80-100 GeV Error 1.71081351208e-05
+ zzjj4l-ewk: 120-130 GeV 0.00125117954534
+ zzjj4l-ewk: 120-130 GeV Error 0.000100019249172
+ ggZZ: weighted events 0.432076825491
+ ggZZ: weighted events Error 0.00778171035876
+ ggZZ: 80-100 GeV 0.000402202070452
+ ggZZ: 80-100 GeV Error 0.000402202070452
+ ggZZ: 120-130 GeV 0.000417227216208
+ ggZZ: 120-130 GeV Error 0.000417227216208
+ qqZZ-amcnlo: weighted events 4.49928519635
+ qqZZ-amcnlo: weighted events Error 0.227083212266
+ qqZZ-amcnlo: 80-100 GeV 0.63096993742
+ qqZZ-amcnlo: 80-100 GeV Error 0.0815540274861
+ qqZZ-amcnlo: 120-130 GeV 0.0572257945989
+ qqZZ-amcnlo: 120-130 GeV Error 0.0224119311357
+ HZZ-signal: weighted events 0.671672957658
+ HZZ-signal: weighted events Error 0.0114992865102
+ HZZ-signal: 80-100 GeV 0.00880113609562
+ HZZ-signal: 80-100 GeV Error 0.00124697969431
+ HZZ-signal: 120-130 GeV 0.488841417513
+ HZZ-signal: 120-130 GeV Error 0.0106288237513
+ signalSum: weighted events 6.02146979582
+ signalSum: weighted events Error 0.227514506736
+ signalSum: 80-100 GeV 0.640211479934
+ signalSum: 80-100 GeV Error 0.0815645536784
+ signalSum: 120-130 GeV 0.547735618873
+ signalSum: 120-130 GeV Error 0.0248082775293
+ totexp: weighted events 8.29178543306
+ totexp: weighted events Error 0.467067893434
+ totexp: 80-100 GeV 0.734659774959
+ totexp: 80-100 GeV Error 0.126358471711
+ totexp: 120-130 GeV 0.643661090739
+ totexp: 120-130 GeV Error 0.104324361749
+Number of events in data: 11
+
+data events 80-100 GeV: 1
+
+data events 120-130 GeV: 0

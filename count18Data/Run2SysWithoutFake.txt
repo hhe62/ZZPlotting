@@ -1,0 +1,408 @@
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass
+Channels: eeee,eemm,mmmm
+Total sys up: 487.787838121
+Total sys dn: 468.775635768
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass
+Channels: eeee
+Total sys up: 63.4114496494
+Total sys dn: 60.8373722593
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass
+Channels: mmmm
+Total sys up: 85.3500897319
+Total sys dn: 82.3572509256
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass
+Channels: eemm
+Total sys up: 132.360312365
+Total sys dn: 127.296679641
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass0j
+Channels: eeee,eemm,mmmm
+Total sys up: 283.93445195
+Total sys dn: 272.282884036
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass0j
+Channels: eeee
+Total sys up: 35.9574858747
+Total sys dn: 34.3991071903
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass0j
+Channels: mmmm
+Total sys up: 42.1068724867
+Total sys dn: 40.1228686565
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass0j
+Channels: eemm
+Total sys up: 64.6748089924
+Total sys dn: 61.4495741128
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass1j
+Channels: eeee,eemm,mmmm
+Total sys up: 137.229176208
+Total sys dn: 131.693148971
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass1j
+Channels: eeee
+Total sys up: 18.9511285644
+Total sys dn: 18.1925252656
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass1j
+Channels: mmmm
+Total sys up: 27.4091913784
+Total sys dn: 26.573429992
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass1j
+Channels: eemm
+Total sys up: 41.2375298711
+Total sys dn: 39.7257021449
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass2j
+Channels: eeee,eemm,mmmm
+Total sys up: 60.0089181244
+Total sys dn: 58.7407710077
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass2j
+Channels: eeee
+Total sys up: 9.30460969358
+Total sys dn: 9.16510210933
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass2j
+Channels: mmmm
+Total sys up: 15.1003789608
+Total sys dn: 14.9781880891
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass2j
+Channels: eemm
+Total sys up: 25.0517251681
+Total sys dn: 24.8347927764
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass3j
+Channels: eeee,eemm,mmmm
+Total sys up: 18.0862170174
+Total sys dn: 17.7128517271
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass3j
+Channels: eeee
+Total sys up: 3.31426426958
+Total sys dn: 3.28865796799
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass3j
+Channels: mmmm
+Total sys up: 4.89743099302
+Total sys dn: 4.88135001879
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass3j
+Channels: eemm
+Total sys up: 7.0612605334
+Total sys dn: 7.02832856529
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass4j
+Channels: eeee,eemm,mmmm
+Total sys up: 6.71375326819
+Total sys dn: 6.65196208975
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass4j
+Channels: eeee
+Total sys up: 1.15822589604
+Total sys dn: 1.15281483271
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass4j
+Channels: mmmm
+Total sys up: 1.73526086299
+Total sys dn: 1.7342155716
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass4j
+Channels: eemm
+Total sys up: 3.0867595954
+Total sys dn: 3.08184726375
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: MassFull
+Channels: eeee,eemm,mmmm
+Total sys up: 980.518232631
+Total sys dn: 937.148381418
+
+ sys up: 80-100 GeV 260.474424436
+ sys dn: 80-100 GeV 244.684172969
+ sys up: 120-130 GeV 47.9696461529
+ sys dn: 120-130 GeV 45.9030093278
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: MassFull
+Channels: eeee
+Total sys up: 138.808982978
+Total sys dn: 130.813783775
+
+ sys up: 80-100 GeV 40.369922634
+ sys dn: 80-100 GeV 36.7637739327
+ sys up: 120-130 GeV 7.29071064019
+ sys dn: 120-130 GeV 6.80675828267
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: MassFull
+Channels: mmmm
+Total sys up: 184.339943023
+Total sys dn: 179.468490033
+
+ sys up: 80-100 GeV 59.6042571986
+ sys dn: 80-100 GeV 58.1979238797
+ sys up: 120-130 GeV 7.87942185772
+ sys dn: 120-130 GeV 7.72611048886
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: MassFull
+Channels: eemm
+Total sys up: 253.414898838
+Total sys dn: 245.971225516
+
+ sys up: 80-100 GeV 64.7349667226
+ sys dn: 80-100 GeV 62.9083710568
+ sys up: 120-130 GeV 10.8111123785
+ sys dn: 120-130 GeV 10.4989429457
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass0jFull
+Channels: eeee,eemm,mmmm
+Total sys up: 617.008485208
+Total sys dn: 585.550781672
+
+ sys up: 80-100 GeV 188.216567395
+ sys dn: 80-100 GeV 175.035763927
+ sys up: 120-130 GeV 30.2588080415
+ sys dn: 120-130 GeV 28.9269162222
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass0jFull
+Channels: eeee
+Total sys up: 84.3250998798
+Total sys dn: 78.6729498695
+
+ sys up: 80-100 GeV 27.6834572542
+ sys dn: 80-100 GeV 24.8398234687
+ sys up: 120-130 GeV 4.54629384836
+ sys dn: 120-130 GeV 4.23257516394
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass0jFull
+Channels: mmmm
+Total sys up: 106.164551255
+Total sys dn: 102.653605391
+
+ sys up: 80-100 GeV 40.9936857652
+ sys dn: 80-100 GeV 39.8334724372
+ sys up: 120-130 GeV 5.27495220261
+ sys dn: 120-130 GeV 5.17735486721
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass0jFull
+Channels: eemm
+Total sys up: 140.516643049
+Total sys dn: 135.20322958
+
+ sys up: 80-100 GeV 44.2381326934
+ sys dn: 80-100 GeV 42.7456399475
+ sys up: 120-130 GeV 7.05693161666
+ sys dn: 120-130 GeV 6.85067654077
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass1jFull
+Channels: eeee,eemm,mmmm
+Total sys up: 253.422239394
+Total sys dn: 244.536260347
+
+ sys up: 80-100 GeV 56.4050818292
+ sys dn: 80-100 GeV 54.4276375007
+ sys up: 120-130 GeV 11.7837877065
+ sys dn: 120-130 GeV 11.3724920247
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass1jFull
+Channels: eeee
+Total sys up: 38.2047458834
+Total sys dn: 36.4160747658
+
+ sys up: 80-100 GeV 9.66484561742
+ sys dn: 80-100 GeV 9.04634338653
+ sys up: 120-130 GeV 1.8602747493
+ sys dn: 120-130 GeV 1.74336107034
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass1jFull
+Channels: mmmm
+Total sys up: 53.7763654881
+Total sys dn: 52.6185521254
+
+ sys up: 80-100 GeV 14.2346070241
+ sys dn: 80-100 GeV 14.0209697387
+ sys up: 120-130 GeV 2.04602261417
+ sys dn: 120-130 GeV 2.0102472513
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass1jFull
+Channels: eemm
+Total sys up: 75.4696777088
+Total sys dn: 73.6147755116
+
+ sys up: 80-100 GeV 17.6857772187
+ sys dn: 80-100 GeV 17.4304344113
+ sys up: 120-130 GeV 2.69774498093
+ sys dn: 120-130 GeV 2.62663629648
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass2jFull
+Channels: eeee,eemm,mmmm
+Total sys up: 117.318068978
+Total sys dn: 115.232662422
+
+ sys up: 80-100 GeV 27.9636132208
+ sys dn: 80-100 GeV 27.6159685437
+ sys up: 120-130 GeV 5.09175786353
+ sys dn: 120-130 GeV 4.87846526175
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass2jFull
+Channels: eeee
+Total sys up: 18.0108380446
+Total sys dn: 17.6975745797
+
+ sys up: 80-100 GeV 4.34987571756
+ sys dn: 80-100 GeV 4.26669065045
+ sys up: 120-130 GeV 0.744625145229
+ sys dn: 120-130 GeV 0.708892199407
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass2jFull
+Channels: mmmm
+Total sys up: 34.7342774643
+Total sys dn: 34.5871528436
+
+ sys up: 80-100 GeV 11.3550509428
+ sys dn: 80-100 GeV 11.3402682846
+ sys up: 120-130 GeV 1.18833621929
+ sys dn: 120-130 GeV 1.1821062121
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass2jFull
+Channels: eemm
+Total sys up: 46.8538265897
+Total sys dn: 46.6058738524
+
+ sys up: 80-100 GeV 10.1819008708
+ sys dn: 80-100 GeV 10.1584974232
+ sys up: 120-130 GeV 1.36196928596
+ sys dn: 120-130 GeV 1.34701241174
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass3jFull
+Channels: eeee,eemm,mmmm
+Total sys up: 32.0644676427
+Total sys dn: 31.5527767618
+
+ sys up: 80-100 GeV 5.94814155033
+ sys dn: 80-100 GeV 5.88563939413
+ sys up: 120-130 GeV 1.16980410408
+ sys dn: 120-130 GeV 1.12381308847
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass3jFull
+Channels: eeee
+Total sys up: 5.82447698617
+Total sys dn: 5.76752262729
+
+ sys up: 80-100 GeV 0.90028497725
+ sys dn: 80-100 GeV 0.887003134612
+ sys up: 120-130 GeV 0.161860480721
+ sys dn: 120-130 GeV 0.153567157411
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass3jFull
+Channels: mmmm
+Total sys up: 9.00230899275
+Total sys dn: 8.98022398909
+
+ sys up: 80-100 GeV 2.13343223329
+ sys dn: 80-100 GeV 2.13121626193
+ sys up: 120-130 GeV 0.214885950836
+ sys dn: 120-130 GeV 0.213204353703
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass3jFull
+Channels: eemm
+Total sys up: 12.5806568041
+Total sys dn: 12.5379762056
+
+ sys up: 80-100 GeV 2.51976508379
+ sys dn: 80-100 GeV 2.51467113179
+ sys up: 120-130 GeV 0.268290399312
+ sys dn: 120-130 GeV 0.264961397693
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass4jFull
+Channels: eeee,eemm,mmmm
+Total sys up: 11.7276103622
+Total sys dn: 11.6210291414
+
+ sys up: 80-100 GeV 1.61703355327
+ sys dn: 80-100 GeV 1.61247373371
+ sys up: 120-130 GeV 0.593168305881
+ sys dn: 120-130 GeV 0.560507099106
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass4jFull
+Channels: eeee
+Total sys up: 2.16234496399
+Total sys dn: 2.14688624925
+
+ sys up: 80-100 GeV 0.306623225044
+ sys dn: 80-100 GeV 0.303470583159
+ sys up: 120-130 GeV 0.0833034183782
+ sys dn: 120-130 GeV 0.0797460038075
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass4jFull
+Channels: mmmm
+Total sys up: 3.02045451062
+Total sys dn: 3.01776539508
+
+ sys up: 80-100 GeV 0.622003637486
+ sys dn: 80-100 GeV 0.621709249258
+ sys up: 120-130 GeV 0.0926673640152
+ sys dn: 120-130 GeV 0.0920745821847
+
+Luminosity: 137.58 fb^{-1}
+Plotting branch: Mass4jFull
+Channels: eemm
+Total sys up: 5.08328870505
+Total sys dn: 5.07608566204
+
+ sys up: 80-100 GeV 0.636816120082
+ sys dn: 80-100 GeV 0.63647500338
+ sys up: 120-130 GeV 0.142697975949
+ sys dn: 120-130 GeV 0.140544431947
