@@ -1005,15 +1005,22 @@ def getSystValue(hMain):
         lumiScale = {'Up':1.+lumiUnc,'Down':1.-lumiUnc}
         if chan == channels[0]:
             for sys, scale in lumiScale.iteritems():
-                hNoFake = hMain.Clone("NoFakeLumi")
-                #hNoFake.SetDirectory(0)
-                for chanlumi in channels:
-                    hBkgLumi = hbkgDic[chanlumi][variable+"_Fakes"].Clone()
-                    #hBkgLumi.SetDirectory(0)
-                    hBkgLumi=rebin(hBkgLumi,variable)
-                    #truncateTH1(hBkgLumi)
+                if len(channels) == 3:
+                    hNoFake = hMain.Clone("NoFakeLumi")
+              
+                    #hNoFake.SetDirectory(0)
+                    for chanlumi in channels:
+                        hBkgLumi = hbkgDic[chanlumi][variable+"_Fakes"].Clone()
+                        #hBkgLumi.SetDirectory(0)
+                        hBkgLumi=rebin(hBkgLumi,variable)
+                        #truncateTH1(hBkgLumi)
 
-                    hNoFake.Add(hBkgLumi,-1)
+                        hNoFake.Add(hBkgLumi,-1)
+                elif len(channels) == 1:
+                    hNoFake =  hSigNominal.Clone("NoFakeLumi_chan")
+                    hNoFake.Add(hBkgMCNominal)
+                else:
+                    raise ValueError("Abnormal channels input")
                 hChangeLumi = hNoFake*(scale-1.)
                 #hChangeLumi.SetDirectory(0)
 
@@ -1060,15 +1067,23 @@ def getSystValue(hMain):
         TrigScale = {'Up':1.+TrigUnc,'Down':1.-TrigUnc}
         if chan == channels[0]:
             for sys, scale in TrigScale.iteritems():
-                hNoFakeTrig = hMain.Clone("NoFakeTrig")
-                #hNoFake.SetDirectory(0)
-                for chanTrig in channels:
-                    hBkgTrig = hbkgDic[chanTrig][variable+"_Fakes"].Clone()
-                    #hBkgLumi.SetDirectory(0)
-                    hBkgTrig=rebin(hBkgTrig,variable)
-                    #truncateTH1(hBkgLumi)
+                if len(channels) == 3:
+                    hNoFakeTrig = hMain.Clone("NoFakeTrig")
+                    #hNoFake.SetDirectory(0)
+                    for chanTrig in channels:
+                        hBkgTrig = hbkgDic[chanTrig][variable+"_Fakes"].Clone()
+                        #hBkgLumi.SetDirectory(0)
+                        hBkgTrig=rebin(hBkgTrig,variable)
+                        #truncateTH1(hBkgLumi)
 
-                    hNoFakeTrig.Add(hBkgTrig,-1)
+                        hNoFakeTrig.Add(hBkgTrig,-1)
+                
+                elif len(channels) == 1:
+                    hNoFakeTrig =  hSigNominal.Clone("NoFakeTrig_chan")
+                    hNoFakeTrig.Add(hBkgMCNominal)
+                else:
+                    raise ValueError("Abnormal channels input")
+                
                 hChangeTrig= hNoFakeTrig*(scale-1.)
                 #hChangeLumi.SetDirectory(0)
 
@@ -1189,27 +1204,48 @@ def getSystValue(hMain):
     UncDnHistos= [SysDic['Down'][sys] for sys in sysList]
     totUncUp=totUncDn=0.
 
+    SysDiagDic = {} #dic of bin content of each syst unc. (up)
+    SysDiagDic["tot"] = []
     for i in range(1,hUncUp.GetNbinsX()+1):
         totUncUp=totUncDn=0.
         for yeardia_i,(h1, h2) in enumerate(zip(UncUpHistos,UncDnHistos)):
             
             totUncUp += max(h1.GetBinContent(i),h2.GetBinContent(i))**2
             totUncDn += min(h1.GetBinContent(i),h2.GetBinContent(i))**2
-            if i ==1:
-                print("Year diagnostics:Up syst")
-                print(sysList[yeardia_i])
-                print(max(h1.GetBinContent(i),h2.GetBinContent(i)))
+            #if i ==1:
+            #    print("Year diagnostics:Up syst")
+            #    print(sysList[yeardia_i])
+            #    print(max(h1.GetBinContent(i),h2.GetBinContent(i)))
+            #if i == 1 and 'PU' in sysList[yeardia_i]:
+            #    print("Double check PU unc original up/dow bin content:")
+            #    print([h1.GetBinContent(debugPUi) for debugPUi in range(1,hUncUp.GetNbinsX()+1)])
+            #    print([h2.GetBinContent(debugPUi) for debugPUi in range(1,hUncUp.GetNbinsX()+1)])
+
+            if not sysList[yeardia_i] in SysDiagDic.keys():
+                SysDiagDic[sysList[yeardia_i]]  = []  
+            SysDiagDic[sysList[yeardia_i]].append(max(h1.GetBinContent(i),h2.GetBinContent(i)))
+            SysDiagDic[sysList[yeardia_i]].append(min(h1.GetBinContent(i),h2.GetBinContent(i)))
 
         totUncUp = math.sqrt(totUncUp)
         totUncDn = math.sqrt(totUncDn)
-        if i == 1:
-            print("Year diagnostics:tot unc up:%s"%totUncUp)
+        #if i == 1:
+        #    print("Year diagnostics:tot unc up:%s"%totUncUp)
         #print "totUncUp: ",totUncUp
         #print "totUncDn: ",totUncDn
+        SysDiagDic["tot"].append(totUncUp)
+        SysDiagDic["tot"].append(totUncDn)
         hUncUp.SetBinContent(i,totUncUp)
         hUncDn.SetBinContent(i,totUncDn)
 
-    
+    for SysDiagKey in sysList+["tot"]:
+        print("Year diagnostics:Up and down syst")
+        print(SysDiagKey)
+        tmp_debuglist = SysDiagDic[SysDiagKey]
+        tmp_debuglist1 = tmp_debuglist[0:len(tmp_debuglist):2] 
+        tmp_debuglist2 = tmp_debuglist[1:len(tmp_debuglist):2] 
+        print(tmp_debuglist1 ,sum(tmp_debuglist1 ))
+        print(tmp_debuglist2 ,sum(tmp_debuglist2 ))
+
     MainGraph=ROOT.TGraphAsymmErrors(hMain)
     ROOT.SetOwnership(MainGraph,False) #won't be deleted when the proxy is deleted
     #MainGraph.SetDirectory(0) #won't be deleted when the file is closed. Global file variable now, shouldn't matter. 
