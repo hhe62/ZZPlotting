@@ -436,6 +436,7 @@ def splitCanvasWithSyst(ratioband,oldcanvas, dimensions, ratio_text, ratio_range
             #drawOpt += " E2"
             #drawOpt += " hist"
         else:
+            ratioHist.SetMarkerSize(1.5)
             drawOpt += " PZE0"
         ratioHist.Draw(drawOpt)
     #================================================

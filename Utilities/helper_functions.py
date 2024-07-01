@@ -128,6 +128,8 @@ def makePlots(hist_stacks, data_hists, name, args, signal_stacks=[0], errors=[])
             if not args.no_data:
                 #pdb.set_trace()
                 data_hist.SetLineWidth(3)
+                data_hist.SetMarkerStyle(20)
+                data_hist.SetMarkerSize(1.5)
                 data_hist.Draw("e0 same")
             #error_title = "Stat. unc."
             error_title = "Syst. unc."
