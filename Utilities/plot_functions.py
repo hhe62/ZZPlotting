@@ -243,6 +243,7 @@ def setErrorsStyle(histErrors):
 
 
 def splitCanvasWithSyst(ratioband,oldcanvas, dimensions, ratio_text, ratio_range,isMassFull,varname):
+    
     stacks = filter(lambda p: type(p) is ROOT.THStack and "signal" not in p.GetName(), oldcanvas.GetListOfPrimitives())
     signal_stacks = filter(lambda p: type(p) is ROOT.THStack and "signal" in p.GetName(), oldcanvas.GetListOfPrimitives())
     data_list = filter(lambda p: type(p) is ROOT.TH1D and 'data' in p.GetName().lower(), oldcanvas.GetListOfPrimitives())
@@ -256,9 +257,12 @@ def splitCanvasWithSyst(ratioband,oldcanvas, dimensions, ratio_text, ratio_range
         return oldcanvas
     name = oldcanvas.GetName()
     #ROOT.gStyle.SetLineWidth(3)
+    #ROOT.gStyle.SetErrorX(0.)
+    
     canvas = ROOT.TCanvas(name+'__new', name, *dimensions)
     ratioPad = ROOT.TPad('ratioPad', 'ratioPad', 0., 0., 1., .3)
     #ratioPad.SetFrameLineWidth(3)
+    
     if isMassFull:
         ratioPad.SetLogx()
     ratioPad.Draw()
@@ -320,6 +324,12 @@ def splitCanvasWithSyst(ratioband,oldcanvas, dimensions, ratio_text, ratio_range
         else:
             ratioGraph = ROOT.TGraphAsymmErrors()
             ratioGraph.Divide(ratioHist,centralHist,"pois")
+        ROOT.SetOwnership(ratioGraph,False)
+
+        for ind in range(0, ratioGraph.GetN()):
+
+            ratioGraph.SetPointEXhigh(ind, 0.)
+            ratioGraph.SetPointEXlow(ind, 0.)
 
         ratioHists = [ratioGraph]
         for i in range(1, tmpData.GetNbinsX()+2): #don't understand the need for +2
@@ -421,7 +431,7 @@ def splitCanvasWithSyst(ratioband,oldcanvas, dimensions, ratio_text, ratio_range
     #ratioband.GetYaxis().SetTitleSize(ratioband.GetYaxis().GetTitleSize()*0.8)
     #ratioband.GetYaxis().SetLabelSize(ratioband.GetYaxis().GetLabelSize()*0.8)
     if ratioband:
-        ratioband.Draw("2")
+        ratioband.Draw("0")
 
     #centralRatioHist.Draw()
     #This part draws the main ratio results in crosses
@@ -437,7 +447,8 @@ def splitCanvasWithSyst(ratioband,oldcanvas, dimensions, ratio_text, ratio_range
             #drawOpt += " hist"
         else:
             ratioHist.SetMarkerSize(1.5)
-            drawOpt += " PZE0"
+            drawOpt += " PZ0"
+        
         ratioHist.Draw(drawOpt)
     #================================================
 

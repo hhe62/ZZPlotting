@@ -43,6 +43,8 @@ def makePlots(hist_stacks, data_hists, name, args, signal_stacks=[0], errors=[])
     canvas = ROOT.TCanvas("%s_canvas" % name, name, *canvas_dimensions) 
     #canvas.SetFrameLineWidth(3)
     ROOT.gStyle.SetLineWidth(3) #For hists created before this command, line width not affected, if created after then affected
+    ROOT.gStyle.SetEndErrorSize(5)
+    #ROOT.gStyle.SetErrorX(0.)
     first = True
     for hist_stack, data_hist, signal_stack in zip(hist_stacks, data_hists, signal_stacks):
         print "makePlot called"
@@ -121,7 +123,7 @@ def makePlots(hist_stacks, data_hists, name, args, signal_stacks=[0], errors=[])
             ROOT.gStyle.SetHatchesSpacing(0.75)
             #error_hist.Draw("same e2")
             if mainband:
-                mainband.Draw('2 same')
+                mainband.Draw('0 same')
             #hist_stacks[0].Draw('hist same')
             if signal_stack:
                 signal_stack.Draw("nostack same hist")
@@ -130,7 +132,7 @@ def makePlots(hist_stacks, data_hists, name, args, signal_stacks=[0], errors=[])
                 data_hist.SetLineWidth(3)
                 data_hist.SetMarkerStyle(20)
                 data_hist.SetMarkerSize(1.5)
-                data_hist.Draw("e0 same")
+                data_hist.Draw("E0X0 SAME")
             #error_title = "Stat. unc."
             error_title = "Syst. unc."
             if "all" in args.uncertainties:
@@ -187,7 +189,7 @@ def makePlots(hist_stacks, data_hists, name, args, signal_stacks=[0], errors=[])
         ymin = ymax - box_size
         if args.logy:
             if glb_var in ["jetPt[0]","jetPt[1]","absjetEta[0]","absjetEta[1]","mjj","dEtajj"]:
-                text_box = ROOT.TPaveText(coords[0]-0.4, ymin+0.46, coords[2]-0.4, ymax+0.46, "NDCnb")
+                text_box = ROOT.TPaveText(coords[0]-0.5, ymin+0.46, coords[2]-0.4, ymax+0.46, "NDCnb")
             else:
                 text_box = ROOT.TPaveText(coords[0]-0.5, ymin+0.4, coords[2]-0.5, ymax+0.4, "NDCnb")
         #For linear plot positions
@@ -312,19 +314,20 @@ def getPrettyLegend(hist_stack, data_hist, signal_stack, error_hists, coords):
     if signal_stack != 0:
         #hists += signal_stack.GetHists()
         hists = signal_stack.GetHists() + hists
-    legend = ROOT.TLegend(coords[0], coords[1], coords[2], coords[3])
+    legend = ROOT.TLegend(coords[0]-0.14, coords[1], coords[2]+0.02, coords[3]+0.15)
     ROOT.SetOwnership(legend, False)
     legend.SetName("legend")
     legend.SetFillStyle(0)
+    legend.SetNColumns(2)
     if data_hist:
-        legend.AddEntry(data_hist, data_hist.GetTitle(), "lp")
+        legend.AddEntry(data_hist, data_hist.GetTitle(), "pE")
     hist_names = []
     for hist in reversed(hists):
         if hist.GetTitle() not in hist_names:
             legend.AddEntry(hist, hist.GetTitle(), "f")
         hist_names.append(hist.GetTitle())
     for error_hist in error_hists:
-        legend.AddEntry(error_hist, error_hist.GetTitle(), "f")
+        legend.AddEntry(error_hist, error_hist.GetTitle(), "E")
     return legend
 def getHistFactory(config_factory, selection, filelist, luminosity=1, hist_file=None):
     if "Gen" not in selection:
@@ -1275,10 +1278,15 @@ def getSystValue(hMain):
        
         MainGraph.SetPointEYhigh(i-1, errorUp)
         MainGraph.SetPointEYlow(i-1, errorDn)
+
+        MainGraph.SetPointEXhigh(i-1, 0.)
+        MainGraph.SetPointEXlow(i-1, 0.)
+
+    MainGraph.SetLineWidth(4)
     MainGraph.SetFillColorAlpha(1,0.2)
     #MainGraph.SetFillColor(14)     
-    MainGraph.SetFillStyle(3002)
-    MainGraph.SetLineColor(0)
+    #MainGraph.SetFillStyle(3002)
+    MainGraph.SetLineColor(6)
     #pdb.set_trace()
     hflat = hMain.Clone("flat")
     for i in range(1, hflat.GetNbinsX()+1):
@@ -1289,6 +1297,10 @@ def getSystValue(hMain):
 
     tmpData = hMain.Clone("tmp")
     for i in range(1, tmpData.GetNbinsX()+1):
+
+        ratioGraph.SetPointEXhigh(i-1, 0.)
+        ratioGraph.SetPointEXlow(i-1, 0.)
+
         if hMain.GetBinContent(i)==0:
             #ratioGraph.SetPointY(i-1,1.)
             ratioGraph.SetPointEYhigh(i-1, 0.)
@@ -1310,9 +1322,14 @@ def getSystValue(hMain):
         #ratioGraph.SetPointY(i-1,1.)
         ratioGraph.SetPointEYhigh(i-1, errorUp)
         ratioGraph.SetPointEYlow(i-1, errorDn)
+
+        
+
     ratioGraph.SetFillColorAlpha(1,0.2)
     #ratioGraph.SetFillColor(14)   
     ratioGraph.SetFillStyle(3002)
+    ratioGraph.SetLineColor(6)
+    ratioGraph.SetLineWidth(4)
     
     #MainGraph.SetDirectory(0)
     #ratioGraph.SetDirectory(0)

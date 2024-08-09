@@ -256,6 +256,8 @@ def main():
             
     ROOT.gROOT.SetBatch(True)
     ROOT.gStyle.SetOptDate(0)
+    #ROOT.gStyle.SetErrorX(0.)
+
     if args.hist_file == "":
         ROOT.TProof.Open('workers=12')
     filelist = UserInput.getListOfFiles(args.files_to_plot, args.selection)
