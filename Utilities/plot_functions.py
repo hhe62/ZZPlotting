@@ -242,7 +242,7 @@ def setErrorsStyle(histErrors):
     histErrors.SetLineColor(ROOT.TColor.GetColor("#a8a8a8"))
 
 
-def splitCanvasWithSyst(ratioband,oldcanvas, dimensions, ratio_text, ratio_range,isMassFull,varname):
+def splitCanvasWithSyst(ratioband,oldcanvas, dimensions, ratio_text, ratio_range,isMassFull,varname,use_systband,band_drawopt):
     
     stacks = filter(lambda p: type(p) is ROOT.THStack and "signal" not in p.GetName(), oldcanvas.GetListOfPrimitives())
     signal_stacks = filter(lambda p: type(p) is ROOT.THStack and "signal" in p.GetName(), oldcanvas.GetListOfPrimitives())
@@ -326,10 +326,11 @@ def splitCanvasWithSyst(ratioband,oldcanvas, dimensions, ratio_text, ratio_range
             ratioGraph.Divide(ratioHist,centralHist,"pois")
         ROOT.SetOwnership(ratioGraph,False)
 
-        for ind in range(0, ratioGraph.GetN()):
+        if not use_systband:
+            for ind in range(0, ratioGraph.GetN()):
 
-            ratioGraph.SetPointEXhigh(ind, 0.)
-            ratioGraph.SetPointEXlow(ind, 0.)
+                ratioGraph.SetPointEXhigh(ind, 0.)
+                ratioGraph.SetPointEXlow(ind, 0.)
 
         ratioHists = [ratioGraph]
         for i in range(1, tmpData.GetNbinsX()+2): #don't understand the need for +2
@@ -431,7 +432,7 @@ def splitCanvasWithSyst(ratioband,oldcanvas, dimensions, ratio_text, ratio_range
     #ratioband.GetYaxis().SetTitleSize(ratioband.GetYaxis().GetTitleSize()*0.8)
     #ratioband.GetYaxis().SetLabelSize(ratioband.GetYaxis().GetLabelSize()*0.8)
     if ratioband:
-        ratioband.Draw("0")
+        ratioband.Draw(band_drawopt)
 
     #centralRatioHist.Draw()
     #This part draws the main ratio results in crosses

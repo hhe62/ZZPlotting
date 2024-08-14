@@ -29,6 +29,11 @@ import OutputTools
 import ConfigureJobs
 import HistTools
 
+#==================================
+#Whether to draw syst error band or error bar
+#==================================
+use_systband = True
+
 #logging.basicConfig(level=logging.DEBUG)
 def truncateTH1(hist):
     
@@ -39,12 +44,20 @@ def truncateTH1(hist):
             hist.SetBinError(i,tmperror)
 
 def makePlots(hist_stacks, data_hists, name, args, signal_stacks=[0], errors=[]):
+    
+    if use_systband:
+        band_drawopt = "2 SAME"
+    else:
+        band_drawopt = "0 SAME"
+        ROOT.gStyle.SetErrorX(0.)
+
     canvas_dimensions = [800, 800] if "unrolled" not in name else [1200, 800]
     canvas = ROOT.TCanvas("%s_canvas" % name, name, *canvas_dimensions) 
     #canvas.SetFrameLineWidth(3)
     ROOT.gStyle.SetLineWidth(3) #For hists created before this command, line width not affected, if created after then affected
-    ROOT.gStyle.SetEndErrorSize(5)
-    #ROOT.gStyle.SetErrorX(0.)
+    if not use_systband:
+        ROOT.gStyle.SetEndErrorSize(5)
+    
     first = True
     for hist_stack, data_hist, signal_stack in zip(hist_stacks, data_hists, signal_stacks):
         print "makePlot called"
@@ -123,7 +136,7 @@ def makePlots(hist_stacks, data_hists, name, args, signal_stacks=[0], errors=[])
             ROOT.gStyle.SetHatchesSpacing(0.75)
             #error_hist.Draw("same e2")
             if mainband:
-                mainband.Draw('0 same')
+                mainband.Draw(band_drawopt)
             #hist_stacks[0].Draw('hist same')
             if signal_stack:
                 signal_stack.Draw("nostack same hist")
@@ -132,7 +145,7 @@ def makePlots(hist_stacks, data_hists, name, args, signal_stacks=[0], errors=[])
                 data_hist.SetLineWidth(3)
                 data_hist.SetMarkerStyle(20)
                 data_hist.SetMarkerSize(1.5)
-                data_hist.Draw("E0X0 SAME")
+                data_hist.Draw("E0 SAME") #just using E0X0 here may not work if want to disable horizontal bar
             #error_title = "Stat. unc."
             error_title = "Syst. unc."
             if "all" in args.uncertainties:
@@ -222,7 +235,7 @@ def makePlots(hist_stacks, data_hists, name, args, signal_stacks=[0], errors=[])
         #pdb.set_trace()
         canvas = plotter.splitCanvasWithSyst(ratioband,canvas, canvas_dimensions,
                 "#scale[0.85]{Data / Pred.}" if data_hists[0] else args.ratio_text,
-                [float(i) for i in args.ratio_range],glb_isFullMass,glb_var
+                [float(i) for i in args.ratio_range],glb_isFullMass,glb_var,use_systband,band_drawopt
         )
     
     #canvas.SetLogx()
@@ -319,15 +332,20 @@ def getPrettyLegend(hist_stack, data_hist, signal_stack, error_hists, coords):
     legend.SetName("legend")
     legend.SetFillStyle(0)
     legend.SetNColumns(2)
+    legend.SetMargin(0.35)
     if data_hist:
-        legend.AddEntry(data_hist, data_hist.GetTitle(), "pE")
+        legend.AddEntry(data_hist, data_hist.GetTitle(), "lep")
     hist_names = []
     for hist in reversed(hists):
         if hist.GetTitle() not in hist_names:
             legend.AddEntry(hist, hist.GetTitle(), "f")
         hist_names.append(hist.GetTitle())
     for error_hist in error_hists:
-        legend.AddEntry(error_hist, error_hist.GetTitle(), "E")
+        if use_systband:
+            legend.AddEntry(error_hist, error_hist.GetTitle(), "f")
+        else:
+            legend.AddEntry(error_hist, error_hist.GetTitle(), "e")
+
     return legend
 def getHistFactory(config_factory, selection, filelist, luminosity=1, hist_file=None):
     if "Gen" not in selection:
@@ -1279,14 +1297,20 @@ def getSystValue(hMain):
         MainGraph.SetPointEYhigh(i-1, errorUp)
         MainGraph.SetPointEYlow(i-1, errorDn)
 
-        MainGraph.SetPointEXhigh(i-1, 0.)
-        MainGraph.SetPointEXlow(i-1, 0.)
+        if not use_systband:
+            MainGraph.SetPointEXhigh(i-1, 0.)
+            MainGraph.SetPointEXlow(i-1, 0.)
 
-    MainGraph.SetLineWidth(4)
+            MainGraph.SetLineWidth(4)
+    
+    graph_color = ROOT.kViolet-6
+    graph_style = 3357
     MainGraph.SetFillColorAlpha(1,0.2)
-    #MainGraph.SetFillColor(14)     
-    #MainGraph.SetFillStyle(3002)
-    MainGraph.SetLineColor(6)
+    if use_systband:
+        MainGraph.SetFillColor(graph_color)   #14  
+        MainGraph.SetFillStyle(graph_style) #3002
+    
+    MainGraph.SetLineColor(graph_color)
     #pdb.set_trace()
     hflat = hMain.Clone("flat")
     for i in range(1, hflat.GetNbinsX()+1):
@@ -1297,9 +1321,9 @@ def getSystValue(hMain):
 
     tmpData = hMain.Clone("tmp")
     for i in range(1, tmpData.GetNbinsX()+1):
-
-        ratioGraph.SetPointEXhigh(i-1, 0.)
-        ratioGraph.SetPointEXlow(i-1, 0.)
+        if not use_systband:
+            ratioGraph.SetPointEXhigh(i-1, 0.)
+            ratioGraph.SetPointEXlow(i-1, 0.)
 
         if hMain.GetBinContent(i)==0:
             #ratioGraph.SetPointY(i-1,1.)
@@ -1326,11 +1350,13 @@ def getSystValue(hMain):
         
 
     ratioGraph.SetFillColorAlpha(1,0.2)
-    #ratioGraph.SetFillColor(14)   
-    ratioGraph.SetFillStyle(3002)
-    ratioGraph.SetLineColor(6)
-    ratioGraph.SetLineWidth(4)
-    
+      
+    if use_systband:
+        ratioGraph.SetFillColor(graph_color) #14 
+        ratioGraph.SetFillStyle(graph_style) #3002
+    else:
+        ratioGraph.SetLineWidth(4)
+    ratioGraph.SetLineColor(graph_color)
     #MainGraph.SetDirectory(0)
     #ratioGraph.SetDirectory(0)
 
